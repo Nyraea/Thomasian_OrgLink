@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThomasianOrglist", "ThomasianOrglist.csproj", "{EE544A05-A1C4-4C1B-B0F5-2CA3A1FF5EF3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE544A05-A1C4-4C1B-B0F5-2CA3A1FF5EF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE544A05-A1C4-4C1B-B0F5-2CA3A1FF5EF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE544A05-A1C4-4C1B-B0F5-2CA3A1FF5EF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE544A05-A1C4-4C1B-B0F5-2CA3A1FF5EF3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D1C0F9AB-57B0-47CE-9E97-92BC67098815}
+	EndGlobalSection
+EndGlobal
