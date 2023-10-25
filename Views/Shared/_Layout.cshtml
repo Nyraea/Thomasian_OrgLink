@@ -81,16 +81,87 @@
 
 
     </header>
-    <div class="container">
+    <div class="">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
 
     <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2023 - ThomasianOrglist - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-        </div>
+
+        <nav class = "container-fluid pt-3 bg-black">
+            <div class = "row g-3 mx-5 my-3 ">
+                <!-- logo -->
+                <div class="col-4">
+                    <ul>
+                        <li class="lmao">
+                            <a href="../frontend/index.php" class="logo">
+                                <img src="../assets/Logo.png" style = "max-width: 200px">
+                            </a>
+                        </li>
+                    </ul>
+
+                    <!-- copyright -->
+                    <ul class = "list-group copyright">
+                        <li class="list-group-item bg-transparent text-light border-0">© 2023 Copyright: Thomasian Orglink</li>
+                    </ul>
+                </div>
+
+                <!-- links -->
+                <div class="col-2">
+                    <div class="items">
+                        <ul class = "list-group">
+                            <li class="list-group-item bg-transparent border-0"><a class="link-white-2 text-decoration-none" href="../frontend/index.php">HOME</a></li>
+                            <li class="list-group-item bg-transparent border-0"><a class="link-white-2 text-decoration-none" href="../frontend/view.php">ORGS</a></li>
+                            <li class="list-group-item bg-transparent border-0"><a class="link-white-2 text-decoration-none" href="../frontend/aform.php">APPLY</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="items">
+                        <ul class = "list-group">
+                            <li class="list-group-item bg-transparent border-0"><a class="link-white-2 text-decoration-none" href="../frontend/index.php">ABOUT</a></li>
+                            <li class="list-group-item bg-transparent border-0"><a class="link-white-2 text-decoration-none" href="../frontend/view.php">CONTACT US</a></li>
+                            <li class="list-group-item bg-transparent border-0"><a class="link-white-2 text-decoration-none" href="../frontend/aform.php">RESOURCES</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="items">
+                        <ul class = "list-group">
+                            <li class="list-group-item bg-transparent border-0"><a class="link-white-2 text-decoration-none" href="../frontend/index.php">SUPPORT</a></li>
+                            <li class="list-group-item bg-transparent border-0"><a class="link-white-2 text-decoration-none" href="../frontend/view.php">SUBMIT A TICKET</a></li>
+                            <li class="list-group-item bg-transparent border-0"><a class="link-white-2 text-decoration-none" href="../frontend/aform.php">AFFILIATES</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="items">
+                        <ul class = "list-group">
+                            <li class="list-group-item bg-transparent  border-0"><a class="link-white-2 text-decoration-none" href="../frontend/index.php">FAQS</a></li>
+                            <li class="list-group-item bg-transparent border-0"><a class="link-white-2 text-decoration-none" href="../frontend/view.php">PRIVACY POLICY</a></li>
+                            <li class="list-group-item bg-transparent border-0"><a class="link-white-2 text-decoration-none" href="../frontend/aform.php">T&C</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        <!-- horizontal rule -->
+            <div class="row row-cols-1 row-cols-md-1 g-3 mx-4 my-1 flex_card">
+                <div class="col">
+                    <hr class = "border border-4 rounded-pill border-yellow">
+                </div>
+            </div>
+            
+        <!-- socials -->
+            <div class = "row g-3 mx-5">
+                <div class="col d-flex justify-content-evenly my-5">
+                    <a href=""><img style = "max-width: 30px" src ="../assets/twitter.png"></a>
+                    <a href=""><img style = "max-width: 30px" src ="../assets/fb.png"></a>
+                    <a href=""><img style = "max-width: 30px" src ="../assets/ig.png"></a>
+                </div>
+            </div>
+        </nav>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

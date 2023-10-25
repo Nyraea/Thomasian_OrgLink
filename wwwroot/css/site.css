@@ -21,6 +21,17 @@
     }
 }
 
+@keyframes whiteToYellow {
+    from {
+        color: #ffffff;
+    }
+
+    to {
+        color: #ffc107;
+        font-weight: bold;
+    }
+}
+
 html {
   font-size: 14px;
 }
@@ -38,6 +49,10 @@ html {
 
 body {
   margin-bottom: 60px;
+}
+
+.bg-yellow {
+    border-color: #fcc536;
 }
 
 .w-10 {
@@ -77,6 +92,10 @@ body {
     text-decoration: none;
 }
 
+.link-white-2{
+    color: #ffffff;
+}
+
 .link-black {
     color: #000000;
     background-color: #ffc107;
@@ -93,4 +112,14 @@ animation-fill-mode: forwards;
     animation-name: darkToWhite;
     animation-duration: 0.3s;
     animation-fill-mode: forwards;
+}
+
+.link-white-2:hover {
+    animation-name: whiteToYellow;
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+}
+
+.svg-white {
+    fill: #FFF;
 }
