@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "tVK7KMg5eIe24hLgk8mXHWazjoMrWudWV67rcXHY8ao=",
+  "Hash": "UdC4x7SXSOBrjh5jdalmyxes2EztT1tTvlD4pQVr3Q8=",
   "Source": "ThomasianOrglist",
   "BasePath": "_content/ThomasianOrglist",
   "Mode": "Default",
@@ -204,23 +204,6 @@
       "OriginalItemSpec": "wwwroot\\assets\\eng.png"
     },
     {
-      "Identity": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\assets\\facebook.svg",
-      "SourceId": "ThomasianOrglist",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\",
-      "BasePath": "_content/ThomasianOrglist",
-      "RelativePath": "assets/facebook.svg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\facebook.svg"
-    },
-    {
       "Identity": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\assets\\fb.png",
       "SourceId": "ThomasianOrglist",
       "SourceType": "Discovered",
@@ -304,23 +287,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\ig.png"
-    },
-    {
-      "Identity": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\assets\\instagram.svg",
-      "SourceId": "ThomasianOrglist",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\",
-      "BasePath": "_content/ThomasianOrglist",
-      "RelativePath": "assets/instagram.svg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\instagram.svg"
     },
     {
       "Identity": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\assets\\Logo.png",
@@ -576,23 +542,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\twitter.png"
-    },
-    {
-      "Identity": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\assets\\twitter.svg",
-      "SourceId": "ThomasianOrglist",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\",
-      "BasePath": "_content/ThomasianOrglist",
-      "RelativePath": "assets/twitter.svg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\twitter.svg"
     },
     {
       "Identity": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\assets\\unesco.jpg",

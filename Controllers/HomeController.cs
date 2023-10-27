@@ -18,6 +18,11 @@ namespace ThomasianOrglist.Controllers
             return View();
         }
 
+        public IActionResult ViewOrg()
+        {
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             return View();

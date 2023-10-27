@@ -32,6 +32,16 @@
     }
 }
 
+@keyframes bgwhiteToYellow {
+    from {
+        background-color: #FFF;
+    }
+
+    to {
+        background-color: #ffc107;
+    }
+}
+
 html {
   font-size: 14px;
 }
@@ -87,13 +97,51 @@ body {
     width: 10%;
 }
 
+.h-10 {
+    height: 10%;
+}
+
+.h-20 {
+    height: 20%;
+}
+
+.h-30 {
+    height: 30%;
+}
+
+.h-40 {
+    height: 40%;
+}
+
+.h-60 {
+    height: 60%;
+}
+
+.h-70 {
+    height: 70%;
+}
+
+.h-80 {
+    height: 10%;
+}
+
+.h-90 {
+    height: 10%;
+}
+
 .link-white {
     color: #FFFFFF;
     text-decoration: none;
 }
 
-.link-white-2{
+.link-white-2 {
     color: #ffffff;
+    text-decoration: none;
+}
+
+.link-white-3 {
+    background-color: #FFF;
+    text-decoration: none;
 }
 
 .link-black {
@@ -120,6 +168,12 @@ animation-fill-mode: forwards;
     animation-fill-mode: forwards;
 }
 
-.svg-white {
-    fill: #FFF;
+.link-white-3:hover {
+    animation-name: bgwhiteToYellow;
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+}
+
+.bg-white {
+    background-color: white;
 }
