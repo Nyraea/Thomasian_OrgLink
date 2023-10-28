@@ -3,10 +3,10 @@
 }
 
 @model Student
-
 <style>
     body {
-        background-image: url("~/wwwroot/assets/2.png");
+        background-image: url('@Url.Content("~/assets/2.png")');
+        background-size: contain;
     }
 </style>
 
@@ -19,7 +19,7 @@
     <div class=" col-lg-4 col-md-6 col-sm-4 bg-black d-flex flex-column justify-content-center align-items-center border border-0 rounded-3 my-3 pb-2">
         <div class=" w-70 py-2">
 
-            <div class="justify-content-center align-items-center">
+            <div class="d-flex justify-content-center">
                 <h3 class="text-white my-2"><b>CREATE ACCOUNT</b></h3>
             </div>
 
