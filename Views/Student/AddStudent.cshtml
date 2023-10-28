@@ -1,0 +1,71 @@
+﻿@{
+    ViewData["Title"] = "Sign Up";
+}
+
+@model Student
+
+<style>
+    body {
+        background-image: url("~/wwwroot/assets/2.png");
+    }
+</style>
+
+<div class="row justify-content-center align-items-center border border-0">
+
+    <div class="col-lg-4 collapse d-none d-sm-flex bg-danger">
+      
+    </div>
+
+    <div class=" col-lg-4 col-md-6 col-sm-4 bg-black d-flex flex-column justify-content-center align-items-center border border-0 rounded-3 my-3 pb-2">
+        <div class=" w-70 py-2">
+
+            <div class="justify-content-center align-items-center">
+                <h3 class="text-white my-2"><b>CREATE ACCOUNT</b></h3>
+            </div>
+
+            <!-- <p class="card-text">WELCOME TO UST</p> -->
+            <form class="form-flex column" asp-action="AddStudent" method="post">
+
+                <label asp-for="fname" class="text-black"></label>
+                <input class="form-control margin_forms bold" type="text" placeholder="FIRST NAME" aria-label="default input example" asp-for="fname" required>
+                
+                <label asp-for="lname" class="text-black"></label>
+                <input class="form-control margin_forms font_bold" type="text" placeholder="LAST NAME" aria-label="default input example" asp-for="lname" required>
+                
+                <label asp-for="pnumber" class="text-black"></label>
+                <input class="form-control margin_forms font_bold" type="text" placeholder="+63" aria-label="default input example" asp-for="pnumber" required> 
+                
+                <!-- <input class="form-control margin_forms font_bold" type="text" placeholder="DEGREE PROGRAM" aria-label="default input example" name="program"> -->
+                <!-- <input class="form-control margin_forms font_bold" type="text" placeholder="DEGREE PROGRAM" aria-label="default input example" name="program"> -->
+                <label asp-for="program" class="text-black"></label>
+                <select class="form-select font_bold gray margin_forms" placeholder="DEGREE PROGRAM" asp-for="program" asp-items="Html.GetEnumSelectList(typeof(Program))">
+                </select>
+                    
+                <label asp-for="email" class="text-black"></label>
+                <input class="form-control margin_forms font_bold" type="text" placeholder="fname.lname.college@ust.edu.ph" aria-label="default input example" asp-for="email" required>
+
+                <label asp-for="username" class="text-black"></label>
+                <input class="form-control margin_forms font_bold" type="text" placeholder="USERNAME" aria-label="default input example" asp-for="username" required>
+
+                <label asp-for="password" class="text-black"></label>
+                <input class="form-control margin_forms font_bold mb-3" type="password" placeholder="PASSWORD" aria-label="default input example" asp-for="password" required>
+
+                <div class="mb-5">
+                    <label for="formFile" class="form-label text-white"><b>PROFILE PICTURE</b></label>
+                    <input class="form-control" type="file" id="formFile" name="image">
+                </div>
+                <div class="d-flex flex-column align-items-center">
+                    <button type="submit" name="Submit" class="btn btn-warning link-black my-2 w-100"><b>REGISTER</b></button>
+                    <button type="button" asp-action="Index" class="btn btn-dark my-2 w-100"><b>LOGIN</b></button>
+
+                </div>
+            </form>
+        </div>
+
+    </div>
+
+    <div class="col-lg-4 collapse d-none d-sm-flex bg-warning">
+       
+    </div>
+
+ </div>

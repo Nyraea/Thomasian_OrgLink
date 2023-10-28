@@ -36,7 +36,7 @@
                             <a class="link-white mx-3 px-3 py-1 border-1 rounded" asp-area="" asp-controller="Home" asp-action="ViewOrg"><b>ORGS</b></a>
                         </li>
                         <li class="nav-item">
-                            <a class="link-black  mx-3 px-3 py-1 border-1 rounded" asp-area="" asp-controller="Home" asp-action="Index"><b>APPLY</b></a>
+                            <a class="link-black  mx-3 px-3 py-1 border-1 rounded" asp-area="" asp-controller="Student" asp-action="AddStudent"><b>APPLY</b></a>
                         </li>
                     </ul>
                 </div>
@@ -70,7 +70,7 @@
                     </li>
                     </a>
 
-                    <a class="link-white-2" asp-area="" asp-controller="Home" asp-action="Index">
+                    <a class="link-white-2" asp-area="" asp-controller="Home" asp-action="AddStudent">
                     <li class="nav-item py-2">
                         <span class=" mx-4 px-3 py-1 border-1 rounded"><b>APPLY</b></span>
                     </li>
@@ -90,12 +90,12 @@
     <footer class="border-top footer text-muted">
 
         <nav class = "container-fluid pt-3 bg-black">
-            <div class = "row g-3 mx-5 my-3 ">
+            <div class = "row g-3 my-3 ">
                 <!-- logo -->
                 <div class="col-4">
                     <ul>
-                        <li class="lmao">
-                            <a href="../frontend/index.php" class="logo">
+                        <li class="justify-content-center">
+                            <a asp-action="Index" class="logo">
                                 <img src="../assets/Logo.png" style = "max-width: 200px">
                             </a>
                         </li>
@@ -147,8 +147,8 @@
             </div>
 
         <!-- horizontal rule -->
-            <div class="row row-cols-1 row-cols-md-1 g-3 mx-4 my-1 flex_card">
-                <div class="col collapse d-none d-sm-block">
+            <div class=" collapse d-none d-sm-block row row-cols-1 row-cols-md-1 g-3 mx-4 my-1 flex_card">
+                <div class="col">
                     <hr class = "border border-4 rounded-pill border-yellow">
                 </div>
             </div>

@@ -1,3 +1,6 @@
+
+/* Keyframes */
+
 @keyframes whiteToDark {
     from {
         color: #ffffff;
@@ -42,6 +45,9 @@
     }
 }
 
+
+/* Global */
+
 html {
   font-size: 14px;
 }
@@ -61,9 +67,12 @@ body {
   margin-bottom: 60px;
 }
 
-.bg-yellow {
-    border-color: #fcc536;
+.form-control::placeholder {
+    font-weight: bold;
+    color: #808080;
 }
+
+/* Width */
 
 .w-10 {
     width: 10%;
@@ -97,6 +106,8 @@ body {
     width: 10%;
 }
 
+/* Height */
+
 .h-10 {
     height: 10%;
 }
@@ -129,6 +140,8 @@ body {
     height: 10%;
 }
 
+/* Link Styles */
+
 .link-white {
     color: #FFFFFF;
     text-decoration: none;
@@ -149,6 +162,8 @@ body {
     background-color: #ffc107;
     text-decoration: none;
 }
+
+/* Hover Animations */
 
 .link-white:hover {
 animation-name: whiteToDark;
@@ -174,6 +189,39 @@ animation-fill-mode: forwards;
     animation-fill-mode: forwards;
 }
 
+/* Background Color */
+
 .bg-white {
     background-color: white;
+}
+
+.bg-yellow {
+    border-color: #fcc536;
+}
+
+/* Text Color */
+
+.text-white {
+    color: #FFF;
+}
+
+
+/* Text Align */
+
+.align-text-left {
+    text-align: left;
+}
+
+.align-text-left {
+    text-align: center;
+}
+
+/* Text Formatting */
+
+.bold {
+    font-weight: bold;
+}
+
+.bolder {
+    font-weight: bolder;
 }
