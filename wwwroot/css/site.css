@@ -15,6 +15,16 @@
 @keyframes darkToWhite {
     from {
         color: #000000;
+    }
+
+    to {
+        color: #FFFFFF;
+    }
+}
+
+@keyframes yellowToWhite {
+    from {
+        color: #000000;
         background-color: #ffc107;
     }
 
@@ -23,6 +33,7 @@
         background-color: #ffffff;
     }
 }
+
 
 @keyframes whiteToYellow {
     from {
@@ -163,18 +174,29 @@ body {
     text-decoration: none;
 }
 
+.link-black-2 {
+    color: #000000;
+    text-decoration: none;
+}
+
 /* Hover Animations */
+
+.link-black:hover {
+    animation-name: yellowToWhite;
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+}
+
+.link-black-2:hover {
+    animation-name: darkToWhite;
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+}
 
 .link-white:hover {
 animation-name: whiteToDark;
 animation-duration: 0.3s;
 animation-fill-mode: forwards;
-}
-
-.link-black:hover {
-    animation-name: darkToWhite;
-    animation-duration: 0.3s;
-    animation-fill-mode: forwards;
 }
 
 .link-white-2:hover {
@@ -184,7 +206,7 @@ animation-fill-mode: forwards;
 }
 
 .link-white-3:hover {
-    animation-name: bgwhiteToYellow;
+    animation-name: bgwhiteToYellow, darkToWhite;
     animation-duration: 0.3s;
     animation-fill-mode: forwards;
 }
