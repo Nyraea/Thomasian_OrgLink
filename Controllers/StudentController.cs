@@ -2,6 +2,7 @@
 using System;
 using ThomasianOrglist.Models;
 using ThomasianOrglist.Data;
+using Microsoft.EntityFrameworkCore;
 
 namespace ThomasianOrglist.Controllers
 {
@@ -14,6 +15,9 @@ namespace ThomasianOrglist.Controllers
         {
             _dbContext = dbContext;
         }
+
+        [HttpGet]
+
         public IActionResult AddStudent()
         {
             return View();
@@ -27,5 +31,15 @@ namespace ThomasianOrglist.Controllers
             _dbContext.SaveChanges();
             return RedirectToAction("Index");
         }
+
+        [HttpGet]
+
+        public IActionResult LoginStudent()
+        {
+            return View();
+        }
+
     }
+
+   
 }

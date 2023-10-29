@@ -1,0 +1,31 @@
+﻿@{
+    ViewData["Title"] = "Log In";
+}
+@model Student
+
+<style>
+    body {
+        background-image: url('@Url.Content("~/assets/2.png")');
+        background-size: contain;
+    }
+</style>
+<div class="row d-flex justify-content-center">
+    <div class="col-lg-3">
+    </div>
+    <div class="col-lg-5 d-flex bg-black border border-0 rounded-3 w-40 py-5 my-5">
+        <div class="d-flex flex-column w-100 align-items-center">
+            <h3 class="text-white my-5"><b>WELCOME THOMASIANS!</b></h3>
+            <form action="Login" method="post" class="w-65">
+                <input class="form-control bold mt-3 mb-4" type="text" placeholder="USERNAME" aria-label="default input example" asp-for="username">
+                <input class="form-control bold mt-4 mb-5" type="password" placeholder="PASSWORD" aria-label="default input example" asp-for="password">
+
+                <div class="d-flex justify-content-around my-5">
+                    <button asp-action="AddStudent" class="btn btn-warning w-40"><b>REGISTER</b></button>
+                    <button asp-action="LoginStudent.php" method ="POST" class="btn btn-dark w-40"><b>LOGIN</b></button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="col-lg-3">
+    </div>
+</div>
