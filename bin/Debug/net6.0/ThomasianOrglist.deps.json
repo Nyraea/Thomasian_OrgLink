@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "ThomasianOrglist/1.0.0": {
         "dependencies": {
+          "Microsoft.EntityFrameworkCore": "7.0.13",
           "Microsoft.EntityFrameworkCore.Design": "7.0.13",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.13"
         },

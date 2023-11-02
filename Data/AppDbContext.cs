@@ -26,7 +26,6 @@ namespace ThomasianOrglist.Data
                     lname = "Agraviador",
                     pnumber = "+639876543210",
                     program = Models.Program.CICS,
-                    profile_img = "~/wwwroot/assets/...",
                 },
                 new Student()
                 {
@@ -39,10 +38,10 @@ namespace ThomasianOrglist.Data
                     lname = "Kirsch",
                     pnumber = "+639123456789",
                     program = Models.Program.CFAD,
-                    profile_img = "~/wwwroot/assets/..."
                 }
                 );
 
         }
+        
     }
 }

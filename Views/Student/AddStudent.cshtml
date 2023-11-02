@@ -24,7 +24,7 @@
             </div>
 
             <!-- <p class="card-text">WELCOME TO UST</p> -->
-            <form class="form-flex column" asp-action="AddStudent" method="post">
+            <form class="form-flex column" asp-action="AddStudent" method="post" enctype="multipart/form-data">
 
                 <label asp-for="fname" class="text-black"></label>
                 <input class="form-control margin_forms bold" type="text" placeholder="FIRST NAME" aria-label="default input example" asp-for="fname" required>
@@ -52,11 +52,11 @@
 
                 <div class="mb-5">
                     <label for="formFile" class="form-label text-white"><b>PROFILE PICTURE</b></label>
-                    <input class="form-control" type="file" id="formFile" name="image">
+                    <input asp-for="profile_img" class="form-control" type="file">
                 </div>
                 <div class="d-flex flex-column align-items-center">
-                    <button type="submit" name="Submit" class="btn btn-warning link-black my-2 w-100"><b>REGISTER</b></button>
-                    <button type="button" asp-action="Index" class="btn btn-dark my-2 w-100"><b>LOGIN</b></button>
+                    <button type="submit" asp-action="StudentAdd" method ="POST" class="btn btn-warning link-black my-2 w-100"><b>REGISTER</b></button>
+                    <a class="btn btn-dark my-2 w-100" asp-controller="Student" asp-action="LoginStudent"><b>LOGIN</b></a>
 
                 </div>
             </form>
