@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\ThomasianOrglist.csproj": {}
+    "C:\\Users\\julia\\OneDrive - Asia Pacific College\\Back Up\\Documents\\Codes\\Thomasian_OrgLink\\Thomasian_OrgLink\\ThomasianOrglist.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\ThomasianOrglist.csproj": {
+    "C:\\Users\\julia\\OneDrive - Asia Pacific College\\Back Up\\Documents\\Codes\\Thomasian_OrgLink\\Thomasian_OrgLink\\ThomasianOrglist.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\ThomasianOrglist.csproj",
+        "projectUniqueName": "C:\\Users\\julia\\OneDrive - Asia Pacific College\\Back Up\\Documents\\Codes\\Thomasian_OrgLink\\Thomasian_OrgLink\\ThomasianOrglist.csproj",
         "projectName": "ThomasianOrglist",
-        "projectPath": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\ThomasianOrglist.csproj",
-        "packagesPath": "C:\\Users\\Ms. Mildred Santos\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\obj\\",
+        "projectPath": "C:\\Users\\julia\\OneDrive - Asia Pacific College\\Back Up\\Documents\\Codes\\Thomasian_OrgLink\\Thomasian_OrgLink\\ThomasianOrglist.csproj",
+        "packagesPath": "C:\\Users\\julia\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\julia\\OneDrive - Asia Pacific College\\Back Up\\Documents\\Codes\\Thomasian_OrgLink\\Thomasian_OrgLink\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Ms. Mildred Santos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\julia\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -74,7 +74,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
