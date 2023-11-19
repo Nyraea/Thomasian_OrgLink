@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "ThomasianOrglist/1.0.0": {
         "dependencies": {
+          "FontAwesome5": "2.1.11",
           "Microsoft.EntityFrameworkCore": "7.0.13",
           "Microsoft.EntityFrameworkCore.Design": "7.0.13",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.13"
@@ -47,6 +48,14 @@
           "lib/netstandard2.0/Azure.Identity.dll": {
             "assemblyVersion": "1.7.0.0",
             "fileVersion": "1.700.22.46903"
+          }
+        }
+      },
+      "FontAwesome5/2.1.11": {
+        "runtime": {
+          "lib/net6.0/FontAwesome5.dll": {
+            "assemblyVersion": "2.1.11.0",
+            "fileVersion": "2.1.11.0"
           }
         }
       },
@@ -654,6 +663,13 @@
       "sha512": "sha512-eHEiCO/8+MfNc9nH5dVew/+FvxdaGrkRL4OMNwIz0W79+wtJyEoeRlXJ3SrXhoy9XR58geBYKmzMR83VO7bcAw==",
       "path": "azure.identity/1.7.0",
       "hashPath": "azure.identity.1.7.0.nupkg.sha512"
+    },
+    "FontAwesome5/2.1.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OGwy+ZJoJR7U71eA3BenwP7rdVviVYp8p6ptdBEhoMRuRsSV4vGM/LypVBhonBI43WSxXBysSoE5uQ2SkYKNvA==",
+      "path": "fontawesome5/2.1.11",
+      "hashPath": "fontawesome5.2.1.11.nupkg.sha512"
     },
     "Humanizer.Core/2.14.1": {
       "type": "package",

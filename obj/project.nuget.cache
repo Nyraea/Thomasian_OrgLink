@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "SJQrBjWQW+76qcTrXbDVqHNmNFY+Ay1Di+SD2nhzULUvfyQedqOBp+dUmr2QFKy1B6U/MlS0poe3WmiD7+J5tg==",
+  "dgSpecHash": "nY/mxshXboeUmGQadxG0XECNG6a3FRSzAHxc1SdDayT5RhiSl3rlP7mp8DLOObxXIBvoWBRdCs9a5rK2uyNrsg==",
   "success": true,
   "projectFilePath": "C:\\Users\\julia\\OneDrive - Asia Pacific College\\Back Up\\Documents\\Codes\\Thomasian_OrgLink\\Thomasian_OrgLink\\ThomasianOrglist.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\julia\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\julia\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
+    "C:\\Users\\julia\\.nuget\\packages\\fontawesome5\\2.1.11\\fontawesome5.2.1.11.nupkg.sha512",
     "C:\\Users\\julia\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\julia\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\julia\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
