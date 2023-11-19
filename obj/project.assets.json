@@ -46,6 +46,19 @@
           }
         }
       },
+      "FontAwesome5/2.1.11": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/FontAwesome5.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/FontAwesome5.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Humanizer.Core/2.14.1": {
         "type": "package",
         "compile": {
@@ -1088,6 +1101,58 @@
         "azureicon.png",
         "lib/netstandard2.0/Azure.Identity.dll",
         "lib/netstandard2.0/Azure.Identity.xml"
+      ]
+    },
+    "FontAwesome5/2.1.11": {
+      "sha512": "OGwy+ZJoJR7U71eA3BenwP7rdVviVYp8p6ptdBEhoMRuRsSV4vGM/LypVBhonBI43WSxXBysSoE5uQ2SkYKNvA==",
+      "type": "package",
+      "path": "fontawesome5/2.1.11",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fontawesome5.2.1.11.nupkg.sha512",
+        "fontawesome5.nuspec",
+        "icon.png",
+        "lib/net40/FontAwesome5.Net.dll",
+        "lib/net40/FontAwesome5.Net.xml",
+        "lib/net40/FontAwesome5.dll",
+        "lib/net40/FontAwesome5.xml",
+        "lib/net462/FontAwesome5.Net.dll",
+        "lib/net462/FontAwesome5.Net.xml",
+        "lib/net462/FontAwesome5.dll",
+        "lib/net462/FontAwesome5.xml",
+        "lib/net472/FontAwesome5.Net.dll",
+        "lib/net472/FontAwesome5.Net.xml",
+        "lib/net472/FontAwesome5.dll",
+        "lib/net472/FontAwesome5.xml",
+        "lib/net5.0-windows7.0/FontAwesome5.Net.dll",
+        "lib/net5.0-windows7.0/FontAwesome5.Net.xml",
+        "lib/net5.0-windows7.0/FontAwesome5.dll",
+        "lib/net5.0-windows7.0/FontAwesome5.xml",
+        "lib/net5.0/FontAwesome5.dll",
+        "lib/net5.0/FontAwesome5.xml",
+        "lib/net6.0-windows7.0/FontAwesome5.Net.dll",
+        "lib/net6.0-windows7.0/FontAwesome5.Net.xml",
+        "lib/net6.0-windows7.0/FontAwesome5.dll",
+        "lib/net6.0-windows7.0/FontAwesome5.xml",
+        "lib/net6.0/FontAwesome5.dll",
+        "lib/net6.0/FontAwesome5.xml",
+        "lib/netcoreapp3.1/FontAwesome5.Net.dll",
+        "lib/netcoreapp3.1/FontAwesome5.Net.xml",
+        "lib/netcoreapp3.1/FontAwesome5.dll",
+        "lib/netcoreapp3.1/FontAwesome5.xml",
+        "lib/netstandard1.4/FontAwesome5.dll",
+        "lib/netstandard1.4/FontAwesome5.xml",
+        "lib/netstandard2.1/FontAwesome5.dll",
+        "lib/netstandard2.1/FontAwesome5.xml",
+        "lib/uap10.0/FontAwesome5.UWP.XML",
+        "lib/uap10.0/FontAwesome5.UWP.dll",
+        "lib/uap10.0/FontAwesome5.UWP.pri",
+        "lib/uap10.0/FontAwesome5.UWP/Fonts/Font Awesome 5 Brands-Regular-400.otf",
+        "lib/uap10.0/FontAwesome5.UWP/Fonts/Font Awesome 5 Free-Regular-400.otf",
+        "lib/uap10.0/FontAwesome5.UWP/Fonts/Font Awesome 5 Free-Solid-900.otf",
+        "lib/uap10.0/FontAwesome5.dll",
+        "lib/uap10.0/FontAwesome5.xml"
       ]
     },
     "Humanizer.Core/2.14.1": {
@@ -2849,6 +2914,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "FontAwesome5 >= 2.1.11",
       "Microsoft.EntityFrameworkCore >= 7.0.13",
       "Microsoft.EntityFrameworkCore.Design >= 7.0.13",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.13"
@@ -2893,6 +2959,10 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "FontAwesome5": {
+            "target": "Package",
+            "version": "[2.1.11, )"
+          },
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
             "version": "[7.0.13, )"

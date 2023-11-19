@@ -197,3 +197,4 @@ C:\Users\julia\OneDrive - Asia Pacific College\Back Up\Documents\Codes\Thomasian
 C:\Users\julia\OneDrive - Asia Pacific College\Back Up\Documents\Codes\Thomasian_OrgLink\Thomasian_OrgLink\obj\Debug\net6.0\ThomasianOrglist.csproj.CopyComplete
 C:\Users\julia\OneDrive - Asia Pacific College\Back Up\Documents\Codes\Thomasian_OrgLink\Thomasian_OrgLink\obj\Debug\net6.0\ThomasianOrglist.genruntimeconfig.cache
 C:\Users\julia\OneDrive - Asia Pacific College\Back Up\Documents\Codes\Thomasian_OrgLink\Thomasian_OrgLink\obj\Debug\net6.0\ref\ThomasianOrglist.dll
+C:\Users\julia\OneDrive - Asia Pacific College\Back Up\Documents\Codes\Thomasian_OrgLink\Thomasian_OrgLink\bin\Debug\net6.0\FontAwesome5.dll

@@ -284,3 +284,11 @@ animation-fill-mode: forwards;
 .bolder {
     font-weight: bolder;
 }
+
+/* FLEX UPPER RIGHT */
+
+.icon-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
