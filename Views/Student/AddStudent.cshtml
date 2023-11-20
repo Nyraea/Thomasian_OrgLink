@@ -16,7 +16,7 @@
       
     </div>
 
-    <div class=" col-lg-4 col-md-6 col-sm-4 bg-black d-flex flex-column justify-content-center align-items-center border border-0 rounded-3 my-3 pb-2">
+    <div class=" col-lg-4 col-md-6 col-sm-4 bg-blac d-flex flex-column justify-content-center align-items-center border border-0 rounded-3 my-3 pb-2">
         <div class=" w-70 py-2">
 
             <div class="d-flex justify-content-center">
@@ -24,38 +24,38 @@
             </div>
 
             <!-- <p class="card-text">WELCOME TO UST</p> -->
-            <form class="form-flex column" asp-action="AddStudent" method="post" enctype="multipart/form-data">
-
-                <label asp-for="fname" class="text-black"></label>
-                <input class="form-control margin_forms bold" type="text" placeholder="FIRST NAME" aria-label="default input example" asp-for="fname" required>
+            <form class="form-flex column" asp-action="StudentAdd" method="post" enctype="multipart/form-data">
+                <label asp-for="fname" class=""></label>
+                <span asp-validation-for="fname"></span>
+                <input class="form-control margin_forms bold" type="text" placeholder="FIRST NAME" aria-label="default input example" asp-for="fname">
                 
-                <label asp-for="lname" class="text-black"></label>
-                <input class="form-control margin_forms font_bold" type="text" placeholder="LAST NAME" aria-label="default input example" asp-for="lname" required>
+                <label asp-for="lname" class="opacity-0"></label>
+                <input class="form-control margin_forms font_bold" type="text" placeholder="LAST NAME" aria-label="default input example" asp-for="lname" >
                 
-                <label asp-for="pnumber" class="text-black"></label>
-                <input class="form-control margin_forms font_bold" type="text" placeholder="+63" aria-label="default input example" asp-for="pnumber" required> 
+                <label asp-for="pnumber" class="opacity-0"></label>
+                <input class="form-control margin_forms font_bold" type="text" placeholder="+63" aria-label="default input example" asp-for="pnumber"> 
                 
                 <!-- <input class="form-control margin_forms font_bold" type="text" placeholder="DEGREE PROGRAM" aria-label="default input example" name="program"> -->
                 <!-- <input class="form-control margin_forms font_bold" type="text" placeholder="DEGREE PROGRAM" aria-label="default input example" name="program"> -->
-                <label asp-for="program" class="text-black"></label>
+                <label asp-for="program" class="opacity-0"></label>
                 <select class="form-select font_bold gray margin_forms" placeholder="DEGREE PROGRAM" asp-for="program" asp-items="Html.GetEnumSelectList(typeof(Program))">
                 </select>
                     
-                <label asp-for="email" class="text-black"></label>
-                <input class="form-control margin_forms font_bold" type="text" placeholder="fname.lname.college@ust.edu.ph" aria-label="default input example" asp-for="email" required>
+                <label asp-for="email" class="opacity-0"></label>
+                <input class="form-control margin_forms font_bold" type="text" placeholder="fname.lname.college@ust.edu.ph" aria-label="default input example" asp-for="email" >
 
-                <label asp-for="username" class="text-black"></label>
-                <input class="form-control margin_forms font_bold" type="text" placeholder="USERNAME" aria-label="default input example" asp-for="username" required>
+                <label asp-for="username" class="opacity-0"></label>
+                <input class="form-control margin_forms font_bold" type="text" placeholder="USERNAME" aria-label="default input example" asp-for="username" >
 
-                <label asp-for="password" class="text-black"></label>
-                <input class="form-control margin_forms font_bold mb-3" type="password" placeholder="PASSWORD" aria-label="default input example" asp-for="password" required>
+                <label asp-for="password" class="opacity-0"></label>
+                <input class="form-control margin_forms font_bold mb-3" type="password" placeholder="PASSWORD" aria-label="default input example" asp-for="password">
 
                 <div class="mb-5">
                     <label for="formFile" class="form-label text-white"><b>PROFILE PICTURE</b></label>
                     <input asp-for="profile_img" class="form-control" type="file">
                 </div>
                 <div class="d-flex flex-column align-items-center">
-                    <button type="submit" asp-action="StudentAdd" method ="POST" class="btn btn-warning link-black my-2 w-100"><b>REGISTER</b></button>
+                    <button type="submit"  class="btn btn-warning my-2 w-100"><b>REGISTER</b></button>
                     <a class="btn btn-dark my-2 w-100" asp-controller="Student" asp-action="LoginStudent"><b>LOGIN</b></a>
 
                 </div>

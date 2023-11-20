@@ -50,7 +50,14 @@
 
                 @*NAV ICONS*@
                 <div class="d-flex mx-3 w-25 collapse d-none d-sm-inline-flex justify-content-center">
-                    <a class="navbar-collapse collapse" asp-area="" asp-controller="Home" asp-action="Menu"><img class="w-30 m-auto" src="~/assets/iconprof.png" /></a>
+                    <div class="dropdown-center">
+                        <a class="navbar-collapse collapse" data-bs-toggle="dropdown" asp-area="" asp-controller="Home" asp-action="Menu"><img class="w-30 m-auto" src="~/assets/iconprof.png" /></a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Action two</a></li>
+                            <li><a class="dropdown-item" href="#">Action three</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
 
@@ -82,7 +89,7 @@
 
 
     </header>
-    <div class="mt-5 py-5">
+    <div class="py-5 mt-2">
         <main role="main" class="">
             @RenderBody()
         </main>
@@ -163,6 +170,7 @@
             </div>
         </nav>
     </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>

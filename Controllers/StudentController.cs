@@ -1,5 +1,4 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using System;
 using ThomasianOrglist.Models;
 using ThomasianOrglist.Data;
 using Microsoft.EntityFrameworkCore;
@@ -8,18 +7,19 @@ namespace ThomasianOrglist.Controllers
 {
     public class StudentController : Controller
     {
-        private readonly ILogger<StudentController> _logger;
         private readonly AppDbContext _dbContext;
-        private readonly IWebHostEnvironment _webHostEnvironment;
         const string Session_UserID = "_UserId";
         const string Session_Username = "_UserName";
 
         // Binding database and other components to variables
-        public StudentController(ILogger<StudentController> logger, IWebHostEnvironment hostEnvironment , AppDbContext dbContext)
+        public StudentController(AppDbContext dbContext)
         {
             _dbContext = dbContext;
-            _logger = logger;
-            _webHostEnvironment = hostEnvironment;
+        }
+
+        public IActionResult Index()
+        {
+            return View();
         }
 
         [HttpGet]
@@ -34,8 +34,7 @@ namespace ThomasianOrglist.Controllers
 
         public IActionResult StudentAdd(Student newStudent)
         {
-            string fileName = null;
-            byte[] bytes = null;
+            byte[]? bytes = null;
 
             if(newStudent.profile_img != null)
             {
@@ -67,7 +66,7 @@ namespace ThomasianOrglist.Controllers
             }
             _dbContext.Students.Add(newStudent);
             _dbContext.SaveChanges();
-            return RedirectToAction("Index");
+            return RedirectToAction("LoginStudent");
         }
 
         [HttpGet]
@@ -84,7 +83,7 @@ namespace ThomasianOrglist.Controllers
             HttpContext.Session.SetInt32(Session_UserID, 1);
             return RedirectToAction("StudentDetails");
         }
-
+        
         public string About()
         {
             //Accessing the Session Data inside a Method

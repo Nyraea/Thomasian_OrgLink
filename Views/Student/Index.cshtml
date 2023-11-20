@@ -1,0 +1,30 @@
+﻿@model IEnumerable<Student>;
+
+
+@{
+    string domain = "@ust.edu.ph";
+}
+<table class="table table-dark">
+
+    <tr>
+        <th class="d-flex justify-content-center row-cols-1">Instructors</th>
+    </tr>
+
+    <tr>
+        <td class="bg-primary border-1 border-light">Name</td>
+        <td class="bg-warning border-1 border-light">Email</td>
+        <td class="bg-warning border-1 border-light">Phone Number</td>
+        <td class="bg-warning border-1 border-light">Profile Image</td>
+    </tr>
+
+    @foreach (var student in Model)
+    {
+        <tr>
+            <td>@student.fname @student.lname</td>
+            <td>@student.email</td>
+            <td>@student.pnumber</td>
+            <td>@student.profile_img</td>
+        </tr>
+
+    }
+</table>
