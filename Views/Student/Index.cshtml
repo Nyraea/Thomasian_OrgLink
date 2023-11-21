@@ -26,6 +26,8 @@
                 <td>@Html.DisplayFor(modelItem => item.email)</td>
                 <td>@Html.DisplayFor(modelItem => item.fname)</td>
                 <td>@Html.DisplayFor(modelItem => item.lname)</td>
+                <td>  <img src="data:image/jpg;base64,@item.profile_img" width="120px" height="120px" /></td>
+
                 <td><a asp-action="StudentDetails" asp-route-id="@item.user_id" style=" text-decoration:none ; color:black!important"> <button type="button" class="btn btn-info text-black m-2 w-75"> Show Details </button></a></td>
 
             </tr>
