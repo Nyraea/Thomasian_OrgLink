@@ -115,7 +115,20 @@ namespace ThomasianOrglist.Controllers
 
 
         }
-       
+
+        [HttpGet]
+        public IActionResult Aform() 
+        {
+        
+            return View();
+        
+        }
+        [HttpGet]
+        public IActionResult EditAccount()
+        {
+            return View();
+        }        
+        
 
     }
 

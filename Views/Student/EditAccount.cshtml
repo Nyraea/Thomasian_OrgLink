@@ -1,0 +1,98 @@
+﻿@using Microsoft.AspNetCore.Http;
+@inject IHttpContextAccessor HttpContextAccessor;
+
+@{
+    ViewData["Title"] = "Account";
+
+    }
+
+@model Student
+<div class="d-flex align-items-center justify-content-center flex-column ">
+    <div class="card w-100 w-md-90" style="margin-top:100px!important; color:white; border-radius: 50px!important;">
+        <div class="card-body " style="background-color:#1E1E1E;padding:40px ; border-radius: 50px!important; ">
+            <!--<img src="@Url.Action("DisplayBase64Image")" alt="Base64 Image" />  -->
+
+            <div style="text-align: center; margin-left:600px">
+                <h3 class="card-title text-white my-2">PROFILE INFORMATION</h3>
+            </div>
+
+            <div class="d-flex flex-column flex-sm-row align-items-flex-start justify-content-center">
+                <div class="d-flex align-items-center justify-content-center p-2 w-100 flex-column flex-sm-50">
+                    <img src="../assets/iconprof.png" class="d-block filter" style="border-radius: 70%; width:240px" alt="..." />
+                    <div class="d-flex flex-column align-items-center justify-content-center p-2 w-100">
+                        <button type="button" class="btn btn-warning ml-md-3 mr-md-3 mr-md-3" style="width:180px; height:40px;"><b> CHANGE PROFILE </b> </button>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center align-items-sm-start justify-content-start p-2 w-100 flex-column flex-sm-50">
+                    <b class="fs-5">FULLNAME:</b>
+                    <input class="form-control margin_forms bold" type="text" placeholder="FULLNAME" aria-label="default input example" asp-for="fname" required>
+                    <br />
+                    <b class="fs-5">YEAR LEVEL:</b>
+                    <input class="form-control margin_forms bold" type="text" placeholder="YEAR LEVEL" aria-label="default input example" asp-for="fname" required>
+                    <br />
+                    <b class="fs-5">DEGREE PROGRAM:</b>
+                    <input class="form-control margin_forms bold" type="text" placeholder="DEGREE PROGRAM" aria-label="default input example" asp-for="fname" required>
+                    <br />
+                    <b class="fs-5">EMAIL ADDRESS:</b>
+                    <input class="form-control margin_forms bold" type="text" placeholder="EMAIL ADDRESS" aria-label="default input example" asp-for="fname" required>
+                    <br />
+                    <div class="d-flex align-items-center align-items-md-center justify-content-center justify-content-md-center p-2 w-100 flex-row flex-md-row flex-md-50" style="margin-top:100px">
+                        <div class="d-flex align-items-center align-items-md-center justify-content-center justify-content-md-center p-2 w-100 flex-column flex-md-row flex-md-50">
+                            <button type="button" class="btn btn-danger ml-md-3 mr-md-3 mr-md-3" style="width:150px; height:40px;"><b> CANCEL </b> </button>
+                        </div>
+                        <div class="d-flex align-items-center align-items-md-center justify-content-center justify-content-md-center p-2 w-100 flex-column flex-md-row flex-md-50">
+                            <button type="button" class="btn btn-warning ml-md-3 mr-md-3 mr-md-3" style="width:200px; height:40px;"><b> SAVE NEW PROFILE </b> </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <div class="card card w-100 w-md-90" style="width:90%;margin-top:40px!important;margin-bottom:40px!important; color:white; border-radius: 50px!important;">
+        <div class="card-body " style="background-color:#1E1E1E;padding:40px ; border-radius: 50px!important; ">
+            <!--<img src="@Url.Action("DisplayBase64Image")" alt="Base64 Image" />  -->
+
+            <div style="text-align: center;">
+                <h3 class="card-title text-white my-2">ACCOUNT INFORMATION</h3>
+            </div>
+
+            <div class="d-flex flex-column flex-sm-row align-items-flex-start justify-content-center">
+              
+                <div class="d-flex align-items-center align-items-sm-start justify-content-start p-2 w-100 flex-column flex-sm-50">
+                    <b class="fs-5">USERNAME:</b>
+                    <input class="form-control margin_forms bold" type="text" placeholder="USERNAME" aria-label="default input example" asp-for="fname" required>
+                    <br />
+                    <b class="fs-5">OLD PASSWORD:</b>
+                    <input class="form-control margin_forms bold" type="text" placeholder="OLD PASSWORD" aria-label="default input example" asp-for="fname" required>
+                    <br />
+                    <b class="fs-5">NEW PASSWORD:</b>
+                    <input class="form-control margin_forms bold" type="text" placeholder="NEW PASSWORD" aria-label="default input example" asp-for="fname" required>
+                    <br />
+                    <b class="fs-5">CHANGE PASSWORD:</b>
+                    <input class="form-control margin_forms bold" type="text" placeholder="CHANGE PASSWORD" aria-label="default input example" asp-for="fname" required>
+                    <br />
+                    <b class="fs-5">EMAIL ADDRESS:</b>
+                    <input class="form-control margin_forms bold" type="text" placeholder="EMAIL ADDRESS" aria-label="default input example" asp-for="fname" required>
+                    <br />
+                    <b class="fs-5">CONTACT NUMBER:</b>
+                    <input class="form-control margin_forms bold" type="text" placeholder="CONTACT NUMBER" aria-label="default input example" asp-for="fname" required>
+                    <br />
+                    <div class="d-flex align-items-center align-items-md-center justify-content-center justify-content-md-center p-2 w-100 flex-row flex-md-row flex-md-50" style="margin-top:100px">
+                        <div class="d-flex align-items-center align-items-md-center justify-content-center justify-content-md-center p-2 w-100 flex-column flex-md-row flex-md-50">
+                            <button type="button" class="btn btn-danger ml-md-3 mr-md-3 mr-md-3" style="width:150px; height:40px;"><b> CANCEL </b> </button>
+                        </div>
+                        <div class="d-flex align-items-center align-items-md-center justify-content-center justify-content-md-center p-2 w-100 flex-column flex-md-row flex-md-50">
+                            <button type="button" class="btn btn-warning ml-md-3 mr-md-3 mr-md-3" style="width:150px; height:40px;"><b> SAVE PROFILE </b> </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
