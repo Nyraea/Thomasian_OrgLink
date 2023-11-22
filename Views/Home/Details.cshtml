@@ -21,7 +21,9 @@
 
     <!-- Back Button -->
     <div class="container mt-3">
-        <button class="btn btn-secondary float-end" onclick="navigateBack()">Back</button>
+        <a class="link-white-2" asp-area=" " asp-controller="Home" asp-action="ViewOrg">
+        <button class="btn btn-secondary float-end">Back</button>
+        </a>
     </div>
 
     <!-- Main Content -->
@@ -45,8 +47,8 @@
                     <p class=" justify-content-center text-center">TomasinoWeb is the premier digital media organization of the University of Santo Tomas joined by students who are immensely interested in multimedia journalism. Its primary goal as a student publication is to deliver relevant information to the Thomasian community through online media.</p>
                 </div>
                 <div class="d-flex justify-content-center">
-                    <a class="link-white-2" asp-area=" " asp-controller="Home" asp-action="ViewOrg">
-                    <button class="btn btn-warning mt-3">APPLY NOW</button>
+                    <a class="link-white-2" asp-area=" " asp-controller="Student" asp-action="AddStudent">
+                    <button class="btn btn-warning mt-3" >APPLY NOW</button>
                     </a>
                 </div>
             </div>
