@@ -39,14 +39,15 @@ namespace ThomasianOrglist.Controllers
 
         public IActionResult StudentAdd(Student newStudent)
         {
-            string fileName = null;
-            byte[] bytes = null;
+            Student? student = _dbContext.Students.FirstOrDefault(st => st.username == newStudent.username);
 
-            if (newStudent.profile_img != null)
+            if (newStudent.profile_img != null && ModelState.IsValid && student == null)
             {
+                string fileName = null;
+                byte[] bytes = null;
                 // Upload files via wwwroot 
 
-                /* string UploadsFolder = Path.Combine(_webHostEnvironment.WebRootPath, "uploads");
+                string UploadsFolder = Path.Combine(_webHostEnvironment.WebRootPath, "uploads");
                 fileName = Guid.NewGuid().ToString() + "_" + newStudent.profile_img.FileName;
                 string filePath = Path.Combine(UploadsFolder, fileName);
 
@@ -55,10 +56,10 @@ namespace ThomasianOrglist.Controllers
                     newStudent.profile_img.CopyTo(fileStream);
                 }
                 newStudent.photo_path = "~/wwwroot/uploads";
-                newStudent.photo_filename = fileName; */
+                newStudent.photo_filename = fileName;
 
                 // Upload files via database
-
+                /*
                 using (Stream fileStream = newStudent.profile_img.OpenReadStream())
                 {
                     using (BinaryReader br = new BinaryReader(fileStream))
@@ -69,10 +70,16 @@ namespace ThomasianOrglist.Controllers
 
                 // Converts bytes to base 64 string
                 newStudent.photo_data = Convert.ToBase64String(bytes, 0, bytes.Length);
+                */
+
+                _dbContext.Students.Add(newStudent);
+                _dbContext.SaveChanges();
+                return RedirectToAction("LoginStudent");
             }
-            _dbContext.Students.Add(newStudent);
-            _dbContext.SaveChanges();
-            return RedirectToAction("Index");
+            else
+            {
+                return View("AddStudent");
+            }
         }
         /*
       public ActionResult DisplayBase64Image()

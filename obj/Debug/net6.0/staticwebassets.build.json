@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "vJsY1WWPYpwwvLtqye1P6QmuEcIsz2l+hhO5o9ycDg0=",
+  "Hash": "YJQUbAduJvqgnln6Eknmx8vcvOh/0Ly4MT7bG2rSTZI=",
   "Source": "ThomasianOrglist",
   "BasePath": "_content/ThomasianOrglist",
   "Mode": "Default",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\2.png"
+    },
+    {
+      "Identity": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\assets\\3.png",
+      "SourceId": "ThomasianOrglist",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\",
+      "BasePath": "_content/ThomasianOrglist",
+      "RelativePath": "assets/3.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\3.png"
     },
     {
       "Identity": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\assets\\amv.png",
@@ -1664,6 +1681,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\uploads\\da55610b-2a48-412d-b78e-6ba864b20746_AQAL HM SIMPLIFIED.png",
+      "SourceId": "ThomasianOrglist",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\",
+      "BasePath": "_content/ThomasianOrglist",
+      "RelativePath": "uploads/da55610b-2a48-412d-b78e-6ba864b20746_AQAL HM SIMPLIFIED.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\da55610b-2a48-412d-b78e-6ba864b20746_AQAL HM SIMPLIFIED.png"
     }
   ]
 }

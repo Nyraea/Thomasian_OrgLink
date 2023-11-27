@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\assets\\2.png"
     },
     {
+      "Id": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\assets\\3.png",
+      "PackagePath": "staticwebassets\\assets\\3.png"
+    },
+    {
       "Id": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\assets\\Logo.png",
       "PackagePath": "staticwebassets\\assets\\Logo.png"
     },
@@ -383,6 +387,10 @@
     {
       "Id": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\uploads\\da55610b-2a48-412d-b78e-6ba864b20746_AQAL HM SIMPLIFIED.png",
+      "PackagePath": "staticwebassets\\uploads\\da55610b-2a48-412d-b78e-6ba864b20746_AQAL HM SIMPLIFIED.png"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.ThomasianOrglist.Microsoft.AspNetCore.StaticWebAssets.props",
