@@ -5,24 +5,24 @@
 
 <style>
     body {
-        background-image: url('@Url.Content("~/assets/2.png")');
+        background-image: url('@Url.Content("~/assets/3.png")');
         background-size: contain;
     }
 </style>
 
-<div class="row d-flex justify-content-center">
+<div class="row d-flex justify-content-center my-5 py-5">
     <div class="col-lg-3">
     </div>
-    <div class="col-lg-5 d-flex bg-black border border-0 rounded-3 w-40 py-5 my-5">
+    <div class="col-lg-5 d-flex bg-black border border-0 rounded-3 w-70 py-5 my-5">
         <div class="d-flex flex-column w-100 align-items-center">
-            <h3 class="text-white my-5"><b>WELCOME THOMASIANS!</b></h3>
-            <form action="Login" method="post" class="w-65">
+            <h4 class="text-white my-5"><b>WELCOME THOMASIANS!</b></h4>
+            <form action="Login" method="post" class="w-85">
                 <input class="form-control bold mt-3 mb-4" type="text" placeholder="USERNAME" aria-label="default input example" asp-for="username">
                 <input class="form-control bold mt-4 mb-5" type="password" placeholder="PASSWORD" aria-label="default input example" asp-for="password">
 
-                <div class="d-flex flex-column w-100 align-items-center my-5">
-                    <button asp-action="StudentSession" method ="POST" class="btn btn-warning link-black-2 w-65 my-2"><b>LOGIN</b></button>
-                    <a class="btn btn-dark w-65 my-2" asp-controller="Student" asp-action="AddStudent"> <b>REGISTER</b> </a>
+                <div class="d-flex w-100 justify-content-center my-5">
+                    <button asp-action="StudentSession" method ="POST" class="btn btn-warning link-black-2 w-40 my-2 mx-1"><b>LOGIN</b></button>
+                    <a class="btn btn-dark w-40 my-2 mx-1" asp-controller="Student" asp-action="AddStudent"> <b>REGISTER</b> </a>
                 </div>
             </form>
         </div>
