@@ -3,6 +3,7 @@ using System;
 using ThomasianOrglist.Models;
 using ThomasianOrglist.Data;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Http;
 
 namespace ThomasianOrglist.Controllers
 {
@@ -13,6 +14,11 @@ namespace ThomasianOrglist.Controllers
         private readonly IWebHostEnvironment _webHostEnvironment;
         const string Session_UserID = "_UserId";
         const string Session_Username = "_UserName";
+
+        const string Session_FName = "_FName";
+        const string Session_LName = "_LName";
+        const string Session_Email = "_Email";
+        const string Session_Program = "_Program";
 
         // Binding database and other components to variables
         public StudentController(ILogger<StudentController> logger, IWebHostEnvironment hostEnvironment , AppDbContext dbContext)
@@ -90,20 +96,60 @@ namespace ThomasianOrglist.Controllers
             return View();
         }
 
+
         [HttpPost]
-        public IActionResult StudentSession()
+
+        /*     public IActionResult StudentSession(int id)
+             {
+                 //Search for the student whose id matches the given id
+                 var studentsDetail = _dbContext.Students.Find(id);  
+                 if (studentsDetail == null)
+                 {
+                     return NotFound();
+                 }
+
+                 return View(studentsDetail);
+
+                 // return RedirectToAction("Index", _dbContext.Student);
+                 //Storing Data into Session using SetString and SetInt32 method
+                 HttpContext.Session.SetString(Session_Username, studentsDetail.username);
+                 HttpContext.Session.SetInt32(Session_UserID, 1);
+
+                 HttpContext.Session.SetString(Session_FName, studentsDetail.fname);
+                 HttpContext.Session.SetString(Session_LName, studentsDetail.lname);
+                 HttpContext.Session.SetString(Session_Email, studentsDetail.email);
+               //  HttpContext.Session.SetString(Session_Program, student.program);
+
+                 return RedirectToAction("StudentDetails");
+             }
+        */
+        public IActionResult GetStudent(int id)
         {
-            //Storing Data into Session using SetString and SetInt32 method
-            HttpContext.Session.SetString(Session_Username, "magraviador123");
-            HttpContext.Session.SetInt32(Session_UserID, 1);
-            return RedirectToAction("StudentDetails");
+            var student = _dbContext.Students.Find(id);
+            if (student == null)
+            {
+                return NotFound();
+            }
+
+            return View(student);
         }
 
+        public IActionResult StudentDetails(int id)
+        {
+            var student = _dbContext.Students.Find(id);
+            if (student == null)
+            {
+                return NotFound();
+            }
+
+            return View(student);
+        }
         public string About()
         {
             //Accessing the Session Data inside a Method
             string? UserName = HttpContext.Session.GetString(Session_Username);
             int? UserId = HttpContext.Session.GetInt32(Session_UserID);
+
             string Message = $"UserName: {UserName}, UserId: {UserId}";
             return Message;
         }
@@ -115,7 +161,13 @@ namespace ThomasianOrglist.Controllers
 
 
         }
+        [HttpGet]
+        public IActionResult AddNewInfo()
+        {
+            return View();
 
+
+        }
         [HttpGet]
         public IActionResult Aform() 
         {
