@@ -39,9 +39,10 @@ namespace ThomasianOrglist.Controllers
 
         public IActionResult StudentAdd(Student newStudent)
         {
-            Student? student = _dbContext.Students.FirstOrDefault(st => st.username == newStudent.username);
+            Student? emailExists = _dbContext.Students.FirstOrDefault(st => st.email == newStudent.email);
+            Student? usernameExists = _dbContext.Students.FirstOrDefault(st => st.username == newStudent.username);
 
-            if (newStudent.profile_img != null && ModelState.IsValid && student == null)
+            if (newStudent.profile_img != null && ModelState.IsValid && emailExists == null && usernameExists == null)
             {
                 string fileName = null;
                 byte[] bytes = null;
@@ -55,7 +56,7 @@ namespace ThomasianOrglist.Controllers
                 {
                     newStudent.profile_img.CopyTo(fileStream);
                 }
-                newStudent.photo_path = "~/wwwroot/uploads";
+                newStudent.photo_path = "~/uploads/";
                 newStudent.photo_filename = fileName;
 
                 // Upload files via database
@@ -76,6 +77,17 @@ namespace ThomasianOrglist.Controllers
                 _dbContext.SaveChanges();
                 return RedirectToAction("LoginStudent");
             }
+            
+            else if (emailExists != null)
+            {
+                ModelState.AddModelError("Student.email", "Email already exists.");
+                return View("AddStudent");
+            }
+            else if (usernameExists != null)
+            {
+                ModelState.AddModelError("Student.username", "Username already exists.");
+                return View("AddStudent");
+            }
             else
             {
                 return View("AddStudent");
@@ -91,6 +103,7 @@ namespace ThomasianOrglist.Controllers
 
           return File(imageBytes, "image/png"); // Change "image/png" to the appropriate content type
       }*/
+
         [HttpGet]
         public IActionResult LoginStudent()
         {
