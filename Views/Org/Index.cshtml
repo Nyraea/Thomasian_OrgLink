@@ -1,0 +1,36 @@
+﻿@using Microsoft.AspNetCore.Http;
+@inject IHttpContextAccessor HttpContextAccessor;
+
+@{
+    ViewData["Title"] = "Registered Org";
+
+}
+
+@model IEnumerable<Organization>
+
+<h2>Org Registration</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.OrgName)</th>
+            <th>@Html.DisplayNameFor(model => model.emailAdd)</th>
+            <th>@Html.DisplayNameFor(model => model.Vision)</th>
+            <th>@Html.DisplayNameFor(model => model.Mission)</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.OrgName)</td>
+                <td>@Html.DisplayFor(modelItem => item.emailAdd)</td>
+                <td>@Html.DisplayFor(modelItem => item.Vision)</td>
+                <td>@Html.DisplayFor(modelItem => item.Mission)</td>
+                <td><img src = "@Url.Content(@item.photo_path + @item.photo_filename)"/></td>
+
+                <td><a asp-action="StudentDetails" asp-route-id="@item.org_id" style=" text-decoration:none ; color:black!important"> <button type="button" class="btn btn-info text-black m-2 w-75"> Show Details </button></a></td>
+
+            </tr>
+        }
+    </tbody>
+</table>    
