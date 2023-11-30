@@ -2921,19 +2921,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Ms. Mildred Santos\\.nuget\\packages\\": {}
+    "C:\\Users\\User\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\ThomasianOrglist.csproj",
+      "projectUniqueName": "C:\\Users\\User\\source\\repos\\Thomasian_OrgLink\\ThomasianOrglist.csproj",
       "projectName": "ThomasianOrglist",
-      "projectPath": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\ThomasianOrglist.csproj",
-      "packagesPath": "C:\\Users\\Ms. Mildred Santos\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\obj\\",
+      "projectPath": "C:\\Users\\User\\source\\repos\\Thomasian_OrgLink\\ThomasianOrglist.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\User\\source\\repos\\Thomasian_OrgLink\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Ms. Mildred Santos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
