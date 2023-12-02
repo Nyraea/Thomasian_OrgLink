@@ -16,8 +16,8 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\User\source\repos\Thomasian_OrgLink
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/User/source/repos/Thomasian_OrgLink/Views/Home/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZXRhaWxzLmNzaHRtbA==
+[C:/Users/User/source/repos/Thomasian_OrgLink/Views/Department/ViewOrg.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxWaWV3T3JnLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/User/source/repos/Thomasian_OrgLink/Views/Home/Index.cshtml]
@@ -28,8 +28,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/source/repos/Thomasian_OrgLink/Views/Home/ViewOrg.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxWaWV3T3JnLmNzaHRtbA==
+[C:/Users/User/source/repos/Thomasian_OrgLink/Views/Org/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JnXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/source/repos/Thomasian_OrgLink/Views/Org/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JnXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/source/repos/Thomasian_OrgLink/Views/Org/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JnXFJlZ2lzdGVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/User/source/repos/Thomasian_OrgLink/Views/Shared/Error.cshtml]

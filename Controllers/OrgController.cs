@@ -23,6 +23,10 @@ namespace ThomasianOrglist.Controllers
             _webHostEnvironment = hostEnvironment;
             _appDbContext = dbContext;
         }
+        public IActionResult Details()
+        {
+            return View();
+        }
 
         [HttpGet]
         public IActionResult Register()

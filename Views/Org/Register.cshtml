@@ -37,7 +37,7 @@
                 <input class="form-control margin_forms font_bold mb-3" type="password" placeholder="PASSWORD" aria-label="default input example" asp-for="Password">
 
                 <label asp-for="dept" class="text-black"></label>
-                <select class="form-select font_bold gray margin_forms" placeholder="DEGREE PROGRAM" asp-for="dept" asp-items="Html.GetEnumSelectList(typeof(Department))">
+                <select class="form-select font_bold gray margin_forms" placeholder="DEGREE PROGRAM" asp-for="dept" asp-items="Html.GetEnumSelectList(typeof(Departments))">
                 </select>
 
                 <label asp-for="Vision" class="text-black"></label>

@@ -6,7 +6,7 @@ using System.Diagnostics.CodeAnalysis;
 
 namespace ThomasianOrglist.Models
 {
-    public enum Department
+    public enum Departments
     {
         [Display(Name = "AMV College of Accountancy")] AMVCOA,
         [Display(Name = "Faculty of Arts & Letters")] FAL,
@@ -28,6 +28,9 @@ namespace ThomasianOrglist.Models
         [Required]
         public int org_id { get; set; }
 
+        [ForeignKey("Department")]
+        public int DepartmentId {  get; set; }
+
 
 
         [Required(ErrorMessage = "Please input Organization Name")]
@@ -40,7 +43,7 @@ namespace ThomasianOrglist.Models
         public string emailAdd { get; set; }
 
         [Required(ErrorMessage = "Please choose what department")]
-        public Department dept { get; set; }
+        public Departments dept { get; set; }
 
         [Required(ErrorMessage = "Please input a valid password")]
         [DataType(DataType.Password)]
