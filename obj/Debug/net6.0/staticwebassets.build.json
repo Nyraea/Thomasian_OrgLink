@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "rhvXV8kIdptCfhJVO54jKVwLCPSh0O3V11b8iTG6cK4=",
+  "Hash": "N+8pXN/NRp/GfpNtMwsr3gXfb/1vvsQg3ZJfp1B9BaU=",
   "Source": "ThomasianOrglist",
   "BasePath": "_content/ThomasianOrglist",
   "Mode": "Default",
@@ -1800,6 +1800,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\98f5ee0d-a534-441b-8d87-2ace7b12492c_AQAL HM SIMPLIFIED.png"
+    },
+    {
+      "Identity": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\uploads\\bef05372-f909-47ad-afa1-d6528b10a0c1_Pic.PNG",
+      "SourceId": "ThomasianOrglist",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\",
+      "BasePath": "_content/ThomasianOrglist",
+      "RelativePath": "uploads/bef05372-f909-47ad-afa1-d6528b10a0c1_Pic.PNG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\bef05372-f909-47ad-afa1-d6528b10a0c1_Pic.PNG"
     },
     {
       "Identity": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\uploads\\c98554cf-a658-4a11-8a83-6a2fbf44320b_IMG_20211113_160054.jpg",
