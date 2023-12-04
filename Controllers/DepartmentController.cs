@@ -18,10 +18,7 @@ namespace ThomasianOrglist.Controllers
             var departments = _context.Departments.ToList();
             return View(departments);
         }
-        public IActionResult ViewOrg()
-        {
-            return View();
-        }
+        
         [HttpGet]
         public IActionResult DepartmentDetails(int departmentId)
         {
@@ -32,7 +29,13 @@ namespace ThomasianOrglist.Controllers
                 return NotFound();
             }
 
-            return View(department);
+            return PartialView("_DepartmentDetails", department);
         }
+        public IActionResult ViewOrg()
+        {
+            var departments = _context.Departments.ToList();
+            return View(departments);
+        }
+        
     }
 }

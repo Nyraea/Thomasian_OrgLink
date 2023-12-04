@@ -36,6 +36,7 @@ namespace ThomasianOrglist.Data
             new Organization { org_id = 1, OrgName = "Artistang Artlets",
                 emailAdd = "ijaso2002@ust.edu.ph",
                 Password = "hatdog13!",
+                photo_filename = "../assets/tomweb1.jpg",
                 Vision ="aowdaowdbaw", 
                 Mission="awubdauwbdub", 
                 Details = "Artistang Artlets (AA), the Recognized Theater Guild of the Faculty of Arts and Letters of " +
@@ -44,6 +45,7 @@ namespace ThomasianOrglist.Data
             new Organization { org_id = 2, OrgName = "Artlets Economic Society",
                 emailAdd = "ijason2002@ust.edu.ph",
                 Password = "hatdog12!",
+                photo_filename = "../assets/tomweb1.jpg",
                 Vision = "aowdaowdbaw",
                 Mission = "awubdauwbdub",
                 Details ="The Artlets Economics Society of the UST Faculty of Arts and Letters, ever persevering in its goals to provide empowered and inspired " +
