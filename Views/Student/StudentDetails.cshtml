@@ -1,28 +1,6 @@
-﻿<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
-<html>
+﻿@model Student;
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Thomasian OrgLink</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- CSS -->
-    <link rel="stylesheet" href="../css/global.css" />
-    <link rel="stylesheet" href="../css/register.css" />
-    <!-- BOOTSTAP 5 -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-    <!-- FAVICON -->
-    <link rel="icon" type="image/png" sizes="32x32" href="../assets/logoicon.png">
-</head>
-
-<body>
-    <div class="d-flex align-items-center justify-content-center flex-column ">
+<div class="d-flex align-items-center justify-content-center flex-column ">
         <div style="width:90%;">
             <div class="card w-100 w-md-90" style="margin-top:100px!important; color:white;border-radius: 20px!important;  ">
                 <div class="card-body " style="background-color:#1E1E1E;padding:40px ; border-radius: 20px!important; ">
@@ -40,15 +18,15 @@
 
                         <div class="d-flex align-items-center align-items-sm-start justify-content-start p-2 w-100 flex-column flex-sm-50" style="margin-top: 60px;">
                             <br />
-                            <b class="fs-5">FULL NAME:</b>
+                        <b class="fs-5">FULL NAME:</b> @Model.fname @Model.lname
                             <br />
-                            <b class="fs-5">YEAR LEVEL:</b>
+                            <b class="fs-5">YEAR LEVEL:</b> @Model.year_level
                             <br />
-                            <b class="fs-5">DEGREE PROGRAM:</b>
+                        <b class="fs-5">DEGREE PROGRAM:</b> @Model.program
                             <br />
-                            <b class="fs-5"> EMAIL:</b>
+                        <b class="fs-5"> EMAIL:</b>@Model.email
                             <br />
-                            <b class="fs-5">USERNAME</b>
+                        <b class="fs-5">USERNAME</b>@Model.username
                             <div class="d-flex align-items-center align-items-md-center justify-content-center justify-content-md-center p-2 w-100 flex-row flex-md-row flex-md-50" style="margin-top:100px">
                                 <div class="d-flex align-items-center align-items-md-center justify-content-center justify-content-md-center p-2 w-100 flex-column flex-md-row flex-md-50">
                                     <button type="button" class="btn btn-warning ml-md-3 mr-md-3 mr-md-3" style="width:150px; height:50px;"><b> EDIT PROFILE </b> </button>
@@ -102,6 +80,3 @@
             </div>
         </div>
         <script src="" async defer></script>
-</body>
-
-</html>

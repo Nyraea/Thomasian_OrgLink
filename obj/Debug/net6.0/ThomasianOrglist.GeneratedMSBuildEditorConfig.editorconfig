@@ -5,73 +5,80 @@ build_property.UsingMicrosoftNETSdkWeb = true
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
-build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ThomasianOrglist
 build_property.RootNamespace = ThomasianOrglist
-build_property.ProjectDir = C:\Users\User\source\repos\Thomasian_OrgLink\
+build_property.ProjectDir = C:\Users\julia\OneDrive - Asia Pacific College\Back Up\Documents\Codes\Thomasian_OrgLink\Thomasian_OrgLink\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\User\source\repos\Thomasian_OrgLink
+build_property.MSBuildProjectDirectory = C:\Users\julia\OneDrive - Asia Pacific College\Back Up\Documents\Codes\Thomasian_OrgLink\Thomasian_OrgLink
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/User/source/repos/Thomasian_OrgLink/Views/Home/Details.cshtml]
+[C:/Users/julia/OneDrive - Asia Pacific College/Back Up/Documents/Codes/Thomasian_OrgLink/Thomasian_OrgLink/Views/Home/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/source/repos/Thomasian_OrgLink/Views/Home/Index.cshtml]
+[C:/Users/julia/OneDrive - Asia Pacific College/Back Up/Documents/Codes/Thomasian_OrgLink/Thomasian_OrgLink/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/source/repos/Thomasian_OrgLink/Views/Home/Privacy.cshtml]
+[C:/Users/julia/OneDrive - Asia Pacific College/Back Up/Documents/Codes/Thomasian_OrgLink/Thomasian_OrgLink/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/source/repos/Thomasian_OrgLink/Views/Home/ViewOrg.cshtml]
+[C:/Users/julia/OneDrive - Asia Pacific College/Back Up/Documents/Codes/Thomasian_OrgLink/Thomasian_OrgLink/Views/Home/ViewOrg.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxWaWV3T3JnLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/source/repos/Thomasian_OrgLink/Views/Shared/Error.cshtml]
+[C:/Users/julia/OneDrive - Asia Pacific College/Back Up/Documents/Codes/Thomasian_OrgLink/Thomasian_OrgLink/Views/Org/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JnXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julia/OneDrive - Asia Pacific College/Back Up/Documents/Codes/Thomasian_OrgLink/Thomasian_OrgLink/Views/Org/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JnXFJlZ2lzdGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julia/OneDrive - Asia Pacific College/Back Up/Documents/Codes/Thomasian_OrgLink/Thomasian_OrgLink/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/source/repos/Thomasian_OrgLink/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/julia/OneDrive - Asia Pacific College/Back Up/Documents/Codes/Thomasian_OrgLink/Thomasian_OrgLink/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/source/repos/Thomasian_OrgLink/Views/Student/AddStudent.cshtml]
+[C:/Users/julia/OneDrive - Asia Pacific College/Back Up/Documents/Codes/Thomasian_OrgLink/Thomasian_OrgLink/Views/Student/AddStudent.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxBZGRTdHVkZW50LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/source/repos/Thomasian_OrgLink/Views/Student/EditAccount.cshtml]
+[C:/Users/julia/OneDrive - Asia Pacific College/Back Up/Documents/Codes/Thomasian_OrgLink/Thomasian_OrgLink/Views/Student/EditAccount.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxFZGl0QWNjb3VudC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/source/repos/Thomasian_OrgLink/Views/Student/Index.cshtml]
+[C:/Users/julia/OneDrive - Asia Pacific College/Back Up/Documents/Codes/Thomasian_OrgLink/Thomasian_OrgLink/Views/Student/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/source/repos/Thomasian_OrgLink/Views/Student/LoginStudent.cshtml]
+[C:/Users/julia/OneDrive - Asia Pacific College/Back Up/Documents/Codes/Thomasian_OrgLink/Thomasian_OrgLink/Views/Student/LoginStudent.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxMb2dpblN0dWRlbnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/source/repos/Thomasian_OrgLink/Views/Student/StudentDetails - Copy.cshtml]
+[C:/Users/julia/OneDrive - Asia Pacific College/Back Up/Documents/Codes/Thomasian_OrgLink/Thomasian_OrgLink/Views/Student/StudentDetails - Copy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxTdHVkZW50RGV0YWlscyAtIENvcHkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/source/repos/Thomasian_OrgLink/Views/Student/StudentDetails.cshtml]
+[C:/Users/julia/OneDrive - Asia Pacific College/Back Up/Documents/Codes/Thomasian_OrgLink/Thomasian_OrgLink/Views/Student/StudentDetails.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxTdHVkZW50RGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/source/repos/Thomasian_OrgLink/Views/_ViewImports.cshtml]
+[C:/Users/julia/OneDrive - Asia Pacific College/Back Up/Documents/Codes/Thomasian_OrgLink/Thomasian_OrgLink/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/source/repos/Thomasian_OrgLink/Views/_ViewStart.cshtml]
+[C:/Users/julia/OneDrive - Asia Pacific College/Back Up/Documents/Codes/Thomasian_OrgLink/Thomasian_OrgLink/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/source/repos/Thomasian_OrgLink/Views/Shared/_Layout.cshtml]
+[C:/Users/julia/OneDrive - Asia Pacific College/Back Up/Documents/Codes/Thomasian_OrgLink/Thomasian_OrgLink/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-73mmhtp9zm

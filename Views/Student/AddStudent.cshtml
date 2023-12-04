@@ -40,6 +40,9 @@
                 <label asp-for="program" class="text-black"></label>
                 <select class="form-select font_bold gray margin_forms" placeholder="DEGREE PROGRAM" asp-for="program" asp-items="Html.GetEnumSelectList(typeof(Program))">
                 </select>
+
+                <label asp-for="year_level" class="text-black"></label>
+                <input class="form-control margin_forms font_bold" type="text" placeholder="YEAR LEVEL" aria-label="default input example" asp-for="year_level">
                     
                 <label asp-for="email" class="text-black"></label>
                 <input class="form-control margin_forms font_bold" type="text" placeholder="fname.lname.college@ust.edu.ph" aria-label="default input example" asp-for="email" >

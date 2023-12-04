@@ -1,7 +1,7 @@
 ﻿@{
     ViewData["Title"] = "Log In";
 }
-@model Student
+@model Student;
 
 <style>
     body {
@@ -21,8 +21,8 @@
                 <input class="form-control bold mt-4 mb-5" type="password" placeholder="PASSWORD" aria-label="default input example" asp-for="password">
 
                 <div class="d-flex w-100 justify-content-center my-5">
-                    <button asp-action="StudentSession" method ="POST" class="btn btn-warning link-black-2 w-40 my-2 mx-1"><b>LOGIN</b></button>
-                    <a class="btn btn-dark w-40 my-2 mx-1" asp-controller="Student" asp-action="AddStudent"> <b>REGISTER</b> </a>
+                    <button asp-action="StudentSession" method="POST" class="btn btn-warning link-black-2 w-40 my-2 mx-1"><b>LOGIN</b></button>
+                    <a class="btn btn-dark w-40 my-2 mx-1" asp-controller="Student" asp-action="AddStudent" > <b>REGISTER</b> </a>
                 </div>
             </form>
         </div>
