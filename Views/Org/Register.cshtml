@@ -23,8 +23,19 @@
                 <h3 class="text-white my-2"><b>REGISTER YOUR ORG</b></h3>
             </div>
 
+            <script>
+                function confirmRegistration() {
+                    // Display a confirmation dialog
+                    var isConfirmed = confirm("Are you sure all the information about your Organization is correct?");
+
+                    // If the user clicks OK, submit the form
+                    if (isConfirmed) {
+                        document.getElementById("registrationForm").submit();
+                    }
+                }
+            </script>
             <!-- <p class="card-text">WELCOME TO UST</p> -->
-            <form class="form-flex column" asp-action="Register" method="post" enctype="multipart/form-data">
+            <form id="registrationForm" class="form-flex column" asp-action="Register" method="post" enctype="multipart/form-data" onsubmit="confirmRegistration();">
 
                 <label asp-for="OrgName" class="text-black"></label>
                 <input class="form-control margin_forms bold" type="text" placeholder="NAME OF THE ORG" aria-label="default input example" asp-for="OrgName">
@@ -32,12 +43,8 @@
                 <label asp-for="emailAdd" class="text-black"></label>
                 <input class="form-control margin_forms font_bold" type="text" placeholder="EMAIL ADDRESS" aria-label="default input example" asp-for="emailAdd">
 
-
-                <label asp-for="Password" class="text-black"></label>
-                <input class="form-control margin_forms font_bold mb-3" type="password" placeholder="PASSWORD" aria-label="default input example" asp-for="Password">
-
-                <label asp-for="dept" class="text-black"></label>
-                <select class="form-select font_bold gray margin_forms" placeholder="DEGREE PROGRAM" asp-for="dept" asp-items="Html.GetEnumSelectList(typeof(Departments))">
+                <label asp-for="DepartmentId" class="text-black"></label>
+                <select class="form-select font_bold gray margin_forms" placeholder="DEGREE PROGRAM" asp-for="DepartmentId" asp-items="Html.GetEnumSelectList(typeof(DepartmentName))">
                 </select>
 
                 <label asp-for="Vision" class="text-black"></label>
@@ -45,6 +52,9 @@
 
                 <label asp-for="Mission" class="text-black"></label>
                 <input class="form-control margin_forms font_bold" type="text" placeholder="MISSION" aria-label="default input example" asp-for="Mission">
+
+                <label asp-for="UrlLink" class="text-black"></label>
+                <input class="form-control margin_forms font_bold" type="text" placeholder="FB PAGE LINK" aria-label="default input example" asp-for="UrlLink">
 
                 <label asp-for="Details" class="text-black"></label>
                 <textarea class="form-control margin_forms font_bold" placeholder="DETAILS" aria-label="default input example" asp-for="Details"></textarea>

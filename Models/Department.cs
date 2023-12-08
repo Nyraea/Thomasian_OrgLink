@@ -2,8 +2,11 @@
 {
     public class Department
     {
-        public int Id { get; set; }
+        // Use DepartmentName enum values as the DepartmentId
+        public DepartmentName Id { get; set; }
         public string Name { get; set; }
-        public List<Organization> Organizations { get; set; }
+
+        // Navigation property for the one-to-many relationship
+        public ICollection<Organization> Organizations { get; set; }
     }
 }

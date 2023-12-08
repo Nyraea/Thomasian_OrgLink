@@ -1,7 +1,11 @@
-﻿@{
+﻿   
+@{
     ViewData["Title"] = " Orgs";
 }
+
 @model List<Department>
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
 <!-- search bar -->
 <div style="margin-top:100px!important">
 <div class="row g-1 mx-5 mt-5 flex_card border border-2 border-dark rounded-pill h-10 px-2 py-1 ">
@@ -39,7 +43,8 @@
 <!-- org cards -->
 <div class="row row-cols-sm-1 row-cols-md-3 g-3 mx-5 my-3 flex_card">
     <div class="col">
-            <a class="link-white-3 link-black-2" asp-action="DepartmentDetails" asp-route-departmentId="1">
+            <a class="link-white-3 link-black-2" asp-action="DepartmentDetails" asp-route-selectedDepartment="FacultyOfArtsAndLetters">
+                
             <div class="card flex_card border border-dark border-2 h-75 justify-content-center link-white-3">
                 <div class="card-body d-inline-flex">
                     <img src="../assets/arts.png" class="card-img-top" style="width: 60px; height:60px;" alt="...">
@@ -53,7 +58,7 @@
     </div>
 
     <div class="col">
-            <a class="link-white-3 link-black-2"  asp-action="DepartmentDetails" asp-route-departmentId="2">
+            <a class="link-white-3 link-black-2" asp-action="DepartmentDetails" asp-route-selectedDepartment="CollegeOfCommerceAndBusinessAdministration">
             <div class="card flex_card border border-dark border-2 h-75 justify-content-center link-white-3">
                 <div class="card-body d-inline-flex ">
                     <img src="../assets/business.png" class="card-img-top me-3" style="width: 60px; height:60px;" alt="...">
@@ -65,7 +70,7 @@
     </div>
 
     <div class="col">
-            <a class="link-white-3 link-black-2"  asp-action="DepartmentDetails" asp-route-departmentId="3">
+            <a class="link-white-3 link-black-2" asp-action="DepartmentDetails" asp-route-selectedDepartment="CollegeOfEducation">
             <div class="card flex_card border border-2 border-dark h-75 justify-content-center link-white-3">
                 <div class="card-body d-inline-flex">
                     <img src="../assets/educ.png" class="card-img-top" style="width: 60px; height:60px;" alt="...">
@@ -79,7 +84,7 @@
     </div>
 
     <div class="col">
-            <a class="link-white-3 link-black-2"  asp-action="DepartmentDetails" asp-route-departmentId="4">
+            <a class="link-white-3 link-black-2" asp-action="DepartmentDetails" asp-route-selectedDepartment="AMVCollegeOfAccountancy">
             <div class="card flex_card border border-2 border-dark h-75 justify-content-center link-white-3">
                 <div class="card-body d-inline-flex">
                     <img src="../assets/amv.png" class="card-img-top me-3" style="width: 60px; height:60px;" alt="...">
@@ -91,7 +96,7 @@
     </div>
 
     <div class="col">
-            <a class="link-white-3 link-black-2"  asp-action="DepartmentDetails" asp-route-departmentId="5">
+            <a class="link-white-3 link-black-2" asp-action="DepartmentDetails" asp-route-selectedDepartment="CollegeOfTourismAndHospitalityManagement">
             <div class="card flex_card border border-2 border-dark h-75 justify-content-center link-white-3">
                 <div class="card-body d-inline-flex ">
                     <img src="../assets/tourism.png" class="card-img-top me-3" style="width: 60px; height:60px;" alt="...">
@@ -103,7 +108,7 @@
     </div>
 
     <div class="col">
-            <a class="link-white-3 link-black-2"  asp-action="DepartmentDetails" asp-route-departmentId="6">
+            <a class="link-white-3 link-black-2" asp-action="DepartmentDetails" asp-route-selectedDepartment="CollegeOfArchitecture">
             <div class="card flex_card border border-2 border-dark h-75 justify-content-center link-white-3">
                 <div class="card-body d-inline-flex">
                     <img src="../assets/arch.png" class="card-img-top" style="width: 60px; height:60px;" alt="...">
@@ -117,7 +122,7 @@
     </div>
 
     <div class="col">
-            <a class="link-white-3 link-black-2" asp-action="DepartmentDetails" asp-route-departmentId="7">
+            <a class="link-white-3 link-black-2" asp-action="DepartmentDetails" asp-route-selectedDepartment="CollegeOfInformationAndComputingScience">
             <div class="card flex_card border border-2 border-dark h-75 justify-content-center link-white-3">
                 <div class="card-body d-inline-flex ">
                     <img src="../assets/cics.png" class="card-img-top me-3" style="width: 60px; height:60px;" alt="...">
@@ -129,7 +134,7 @@
     </div>
 
     <div class="col">
-            <a class="link-white-3 link-black-2" asp-area=" " asp-action="DepartmentDetails" asp-route-departmentId="8">
+            <a class="link-white-3 link-black-2" asp-area=" " asp-action="DepartmentDetails" asp-route-selectedDepartment="CollegeOfFineArtsAndDesign">
             <div class="card flex_card border border-2 border-dark h-75 justify-content-center link-white-3">
                 <div class="card-body d-inline-flex ">
                     <img src="../assets/fine-arts.png" class="card-img-top me-3" style="width: 60px; height:60px;" alt="...">
@@ -141,7 +146,7 @@
     </div>
 
     <div class="col">
-            <a class="link-white-3 link-black-2" asp-area=" " asp-action="DepartmentDetails" asp-route-departmentId="9">
+            <a class="link-white-3 link-black-2" asp-area=" " asp-action="DepartmentDetails" asp-route-selectedDepartment="FacultyOfEngineering">
             <div class="card flex_card border border-2 border-dark h-75 justify-content-center link-white-3">
                 <div class="card-body d-inline-flex">
                     <img src="../assets/eng.png" class="card-img-top" style="width: 60px; height:60px;" alt="...">
@@ -155,7 +160,7 @@
     </div>
 
     <div class="col">
-            <a class="link-white-3 link-black-2" asp-area=" " asp-action="DepartmentDetails" asp-route-departmentId="10">
+            <a class="link-white-3 link-black-2" asp-area=" " asp-action="DepartmentDetails" asp-route-selectedDepartment="CollegeOfNursing">
             <div class="card flex_card border border-2 border-dark h-75 justify-content-center link-white-3">
                 <div class="card-body d-inline-flex">
                     <img src="../assets/nursing.png" class="card-img-top" style="width: 60px; height:60px;" alt="...">
@@ -169,7 +174,7 @@
     </div>
 
     <div class="col">
-            <a class="link-white-3 link-black-2" asp-area=" " asp-action="DepartmentDetails" asp-route-departmentId="11">
+            <a class="link-white-3 link-black-2" asp-area=" " asp-action="DepartmentDetails" asp-route-selectedDepartment="FacultyOfPharmacy">
             <div class="card flex_card border border-2 border-dark h-75 justify-content-center link-white-3">
                 <div class="card-body d-inline-flex">
                     <img src="../assets/pharma.png" class="card-img-top" style="width: 60px; height:60px;" alt="...">
@@ -183,7 +188,7 @@
     </div>
 
     <div class="col">
-            <a class="link-white-3 link-black-2" asp-action="DepartmentDetails" asp-route-departmentId="12">
+            <a class="link-white-3 link-black-2" asp-action="DepartmentDetails" asp-route-selectedDepartment="FacultyOfMedicineAndSurgery">
             <div class="card flex_card border border-2 border-dark h-75 justify-content-center link-white-3">
                 <div class="card-body d-inline-flex ">
                     <img src="../assets/medicine.png" class="card-img-top me-3" style="width: 60px; height:60px;" alt="...">
@@ -200,7 +205,7 @@
 
 <div class="row row-cols-1 row-cols-md-1 g-3 mx-5 my-1 flex_card">
     <div class="col">
-            <a class="link-white-3" asp-area=" " asp-action="DepartmentDetails" asp-route-departmentId="13">
+            <a class="link-white-3" asp-area=" " asp-action="DepartmentDetails" asp-route-selectedDepartment="UniversityWideOrganizations">
             <div class="card flex_card border border-2 border-dark justify-content-center align-items-center h-75 link-white-3">
                 <div class="card-body d-inline-flex">
                     <img src="../assets/ust.png" class="card-img-top ms-auto" style="width: 60px; height:60px;" alt="...">
@@ -218,76 +223,11 @@
     </div>
 </div>
 
-<!-- cards -->
-<div class="row row-cols-1 row-cols-md-3 g-3 mx-4 my-3 mb-5 flex_card">
-        @foreach (var department in Model)
-        {
-            @Html.Partial("_DepartmentDetails", department)
-        }
-    </div>
-
-
-        <!--<div class="col">
-            <a class="link-white-2" asp-area=" " asp-controller="Home" asp-action="Details">
-            <div class="card flex_card my-2 h-100">
-             
-            <img src="../assets/tomweb1.jpg" class="card-img-top" alt="...">
-            <div class="card-body" style="width: 100%!important;">
-                <h5 class="card-title"><b>TomasinoWeb</b></h5>
-                <p class="card-text">TomasinoWeb is the premier digital media organization of the University of Santo Tomas joined by students who are immensely interested in multimedia journalism.</p>
-            </div>
-                </div>
-            </a>
-        </div>
-
-    <div class="col">
-        <div class="card flex_card my-2 h-100">
-            <img src="../assets/ustartlets.jpg" class="card-img-top" alt="...">
-            <div class="card-body" style="width: 100%!important;">
-                <h5 class="card-title"><b>Artlets Economics Society</b></h5>
-                <p class="card-text">Artlets Economics Society (AES) is a duly recognized organization of the Faculty of Arts and Letters of the University of Santo Tomas.</p>
-            </div>
-        </div>
-    </div>
-
-    <div class="col">
-        <div class="card flex_card my-2 h-100">
-            <img src="../assets/sgawi.jpg" class="card-img-top" alt="...">
-            <div class="card-body" style="width: 100%!important;">
-                <h5 class="card-title"><b>UST Salinggawi Dance Troupe</b></h5>
-                <p class="card-text">The UST Salinggawi Dance Troupe, is the University-wide organization for dance and the official dance troupe of the University of Santo Tomas. The group is known for its versatility covering wide array of genre from performing arts to cheerleading, from contemporary to breakdancing.</p>
-            </div>
-        </div>
-    </div>
-
-    <div class="col">
-        <div class="card flex_card my-2 h-100">
-            <img src="../assets/usteconomic.jpg" class="card-img-top" alt="...">
-            <div class="card-body" style="width: 100%!important;">
-                <h5 class="card-title"><b>UST Economics Society</b></h5>
-                <p class="card-text">Business Economic Department, a community of young and aspiring economists became globally competitive and socially aware individuals.</p>
-            </div>
-        </div>
-    </div>
-
-    <div class="col">
-        <div class="card flex_card my-2 h-100">
-            <img src="../assets/tgs.png" class="card-img-top" alt="...">
-            <div class="card-body" style="width: 100%!important;">
-                <h5 class="card-title"><b>Thomasian Gaming Society</b></h5>
-                <p class="card-text">The Thomasian Gaming Society is the Official Video Game Organization of the University of Santo Tomas.</p>
-            </div>
-        </div>
-    </div>
-
-    <div class="col">
-        <div class="card flex_card my-2 h-100">
-            <img src="../assets/unesco.jpg" class="card-img-top" alt="...">
-            <div class="card-body" style="width: 100%!important;">
-                <h5 class="card-title"><b>UNESCO Club</b></h5>
-                <p class="card-text">UNESCO Club of University of Santo Tomas is a University-Wide Organization in the University of Santo Tomas and an accredited UNESCO Club of the UNESCO National Commission of the Philippines.</p>
-            </div>
-        </div>
-    </div>-->
+<!-- cards 
+    <div class="row row-cols-1 row-cols-md-3 g-3 mx-4 my-3 mb-5 flex_card">
+       
+        
+        </div>-->
+    
 </div>
 

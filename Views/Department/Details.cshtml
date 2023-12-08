@@ -1,0 +1,80 @@
+﻿@* For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860 *@
+@{
+}
+@model Organization
+<div style="margin-top:200px!important">
+    <div class="container mt-3 d-flex justify-content-end">
+        <a class="link-white-2" asp-area=" " asp-controller="Department" asp-action="ViewOrg">
+            <button class="btn btn-secondary btn-lg float-end">Back</button>
+        </a>
+    </div>
+
+
+    <!-- Back Button 
+    <div class="container mt-3">
+        <a class="link-white-2" asp-area=" " asp-controller="Department" asp-action="DepartmentDetails">
+        <button class="btn btn-secondary float-end">Back</button>
+        </a>
+    </div>-->
+
+    <!-- Main Content -->
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col">
+                <!-- Organization Image -->
+                <div class="orgimg">
+                    <a href="#">
+                        <!-- Smaller image, rounded corners, and left-aligned -->
+                        <img class="img-fluid rounded" style="min-width: 150px; min-height: 200px;" src="@Url.Content(Model.photo_path + Model.photo_filename)" alt="Organization Image">
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="nameorg">
+                    <h1 class="justify-content-center text-end" style="font-family:'Montserrat', sans-serif; font-weight: bold; font-size: 60px;padding-top:50px;">@Model.OrgName</h1>
+                    
+                    <p class=" justify-content-center text-center">@Model.Details</p>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <a href="@Model.UrlLink" class="link-black-2">
+                        <button class="btn mt-3" style="background-color: #FFC328; color: #000;">SEE MORE</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="textarea mt-3">
+            <h1>VISION</h1>
+            <p>@Model.Vision</p>
+
+            <h1>MISSION</h1>
+            <p>@Model.Mission</p>
+         </div>   
+
+        <div class="row row-cols-1 row-cols-md-1 g-3 mx-4 my-1 flex_card">
+            <div class="col">
+                <hr class="border border-4 rounded-pill border-warning">
+            </div>
+        </div>
+
+        <div class="contact-section mt-3">
+            <h1 class="mb-0">CONTACT US:</h1>
+            <div class="row align-items-center">
+                <div class="col-auto">
+                    <!-- Email icon -->
+                    <img src="/assets/emailicon.png" alt="Email Icon" class="email-icon img-fluid" style="width: 50px; height: 50px;">
+                </div>
+                <div class="col">
+                    <!-- Email address -->
+                    <p class="email-address small mb-0" style="font-size: 30px;">@Model.emailAdd</p>
+                </div>
+            </div>
+        </div>
+
+    
+    <!-- Bootstrap JavaScript (optional, but required for some components) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    </div>
+  
+
+

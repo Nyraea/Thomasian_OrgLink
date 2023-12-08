@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Options;
 using ThomasianOrglist.Data;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -13,12 +14,15 @@ builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(buil
 //Configuring Session Service in ASP.NET Core
 builder.Services.AddDistributedMemoryCache();
 builder.Services.AddSession(options =>
-{
+{   
+
+
     options.IdleTimeout = TimeSpan.FromSeconds(10);
     options.Cookie.Name = ".ThomasionOL.Session";
     options.Cookie.HttpOnly = true;
     options.Cookie.IsEssential = true;
 });
+
 
 var app = builder.Build();
 

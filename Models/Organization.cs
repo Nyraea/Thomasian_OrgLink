@@ -6,30 +6,33 @@ using System.Diagnostics.CodeAnalysis;
 
 namespace ThomasianOrglist.Models
 {
-    public enum Departments
+    public enum DepartmentName
     {
-        [Display(Name = "AMV College of Accountancy")] AMVCOA,
-        [Display(Name = "Faculty of Arts & Letters")] FAL,
-        [Display(Name = "Faculty of Engineering")] FOE,
-        [Display(Name = "Faculty of Medicine & Surgery")] FOMS,
-        [Display(Name = "Faculty of Pharmacy")] FOP,
-        [Display(Name = "College of Architecture")] COA,
-        [Display(Name = "College of Commerce & Business Administration")] CCBA,
-        [Display(Name = "College of Education")] COE,
-        [Display(Name = "College of Fine Arts & Design")] CFAD,
-        [Display(Name = "College of Computing Sciences")] CICS,
-        [Display(Name = "College of Nursing")] CON,
-        [Display(Name = "College of Tourism & Hospitality Management")] CTHM,
+        FacultyOfArtsAndLetters = 1,
+        CollegeOfCommerceAndBusinessAdministration = 2,
+        CollegeOfEducation = 3,
+        AMVCollegeOfAccountancy = 4,
+        CollegeOfTourismAndHospitalityManagement = 5,
+        CollegeOfArchitecture = 6,
+        CollegeOfInformationAndComputingScience = 7,
+        CollegeOfFineArtsAndDesign = 8,
+        FacultyOfEngineering = 9,
+        CollegeOfNursing = 10,
+        FacultyOfPharmacy = 11,
+        FacultyOfMedicineAndSurgery = 12,
+        UniversityWideOrganizations = 13
     }
     public class Organization
     {
+
+        //public string UrlLink { get; set; }
 
         [Key]
         [Required]
         public int org_id { get; set; }
 
-        [ForeignKey("Department")]
-        public int DepartmentId {  get; set; }
+        [Required(ErrorMessage = "Please input your Facebook Page Link")]
+        public string UrlLink { get; set; }
 
 
 
@@ -42,14 +45,13 @@ namespace ThomasianOrglist.Models
         [DataType(DataType.EmailAddress)]
         public string emailAdd { get; set; }
 
+
         [Required(ErrorMessage = "Please choose what department")]
-        public Departments dept { get; set; }
+        [ForeignKey("DepartmentId")]
+        public DepartmentName DepartmentId { get; set; }
 
-        [Required(ErrorMessage = "Please input a valid password")]
-        [DataType(DataType.Password)]
-        [RegularExpression("^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[^a-zA-Z0-9])(?=.{8,}).*$", ErrorMessage = "Password must be at least 8 characters long and contain 1 uppercase letter, 1 lowercase letter, 1 digit, and 1 special character")]
-        public string Password { get; set; }
-
+        // Navigation property for the one-to-many relationsh
+       
 
         public string? Vision { get; set; }
         public string? Mission { get; set; }
