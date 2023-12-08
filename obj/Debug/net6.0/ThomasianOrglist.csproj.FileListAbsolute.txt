@@ -287,3 +287,11 @@ C:\Users\User\source\repos\Thomasian_OrgLink\obj\Debug\net6.0\ThomasianOrglist.p
 C:\Users\User\source\repos\Thomasian_OrgLink\obj\Debug\net6.0\ThomasianOrglist.genruntimeconfig.cache
 C:\Users\User\source\repos\Thomasian_OrgLink\obj\Debug\net6.0\ref\ThomasianOrglist.dll
 C:\Users\Ms. Mildred Santos\source\repos\ThomasianOrglist\Thomasian_OrgLink\bin\Debug\net6.0\FontAwesome5.dll
+C:\Users\Ms. Mildred Santos\source\repos\ThomasianOrglist\Thomasian_OrgLink\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Ms. Mildred Santos\source\repos\ThomasianOrglist\Thomasian_OrgLink\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Ms. Mildred Santos\source\repos\ThomasianOrglist\Thomasian_OrgLink\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Ms. Mildred Santos\source\repos\ThomasianOrglist\Thomasian_OrgLink\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\Ms. Mildred Santos\source\repos\ThomasianOrglist\Thomasian_OrgLink\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\Ms. Mildred Santos\source\repos\ThomasianOrglist\Thomasian_OrgLink\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Ms. Mildred Santos\source\repos\ThomasianOrglist\Thomasian_OrgLink\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\Ms. Mildred Santos\source\repos\ThomasianOrglist\Thomasian_OrgLink\obj\Debug\net6.0\ThomasianOrglist.MvcApplicationPartsAssemblyInfo.cs
