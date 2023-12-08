@@ -1552,6 +1552,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\ThomasianOrglist.bundle.scp.css))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\143c849c-5549-4a66-83ab-0b5cfe0518b5_jim 1x1.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>ThomasianOrglist</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ThomasianOrglist</BasePath>
+      <RelativePath>uploads/143c849c-5549-4a66-83ab-0b5cfe0518b5_jim 1x1.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\143c849c-5549-4a66-83ab-0b5cfe0518b5_jim 1x1.png))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\30c3c853-b4d4-4aa3-b4fd-d9b2c338b16a_asdasd.png))">
       <SourceType>Package</SourceType>
       <SourceId>ThomasianOrglist</SourceId>
@@ -1616,6 +1632,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\525d199d-915c-44fe-8f5a-9d1712687e8e_asdasd.png))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\5956f06a-2bc0-4acf-a5e8-cc88c7f6abbd_jim 1x1.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>ThomasianOrglist</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ThomasianOrglist</BasePath>
+      <RelativePath>uploads/5956f06a-2bc0-4acf-a5e8-cc88c7f6abbd_jim 1x1.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\5956f06a-2bc0-4acf-a5e8-cc88c7f6abbd_jim 1x1.png))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\6f632af8-f18c-4ea4-b101-c002cbcc982f_ADADD.png))">
       <SourceType>Package</SourceType>
       <SourceId>ThomasianOrglist</SourceId>
@@ -1664,6 +1696,38 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\98f5ee0d-a534-441b-8d87-2ace7b12492c_AQAL HM SIMPLIFIED.png))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\a1171b26-63a4-444a-9011-62aa2af0edd6_Haikyuu.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>ThomasianOrglist</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ThomasianOrglist</BasePath>
+      <RelativePath>uploads/a1171b26-63a4-444a-9011-62aa2af0edd6_Haikyuu.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\a1171b26-63a4-444a-9011-62aa2af0edd6_Haikyuu.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\a4369101-cf75-49bd-8982-ec7038f77686_AQAL HM SIMPLIFIED.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>ThomasianOrglist</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ThomasianOrglist</BasePath>
+      <RelativePath>uploads/a4369101-cf75-49bd-8982-ec7038f77686_AQAL HM SIMPLIFIED.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\a4369101-cf75-49bd-8982-ec7038f77686_AQAL HM SIMPLIFIED.png))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\bef05372-f909-47ad-afa1-d6528b10a0c1_Pic.PNG))">
       <SourceType>Package</SourceType>
       <SourceId>ThomasianOrglist</SourceId>
@@ -1696,6 +1760,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\c98554cf-a658-4a11-8a83-6a2fbf44320b_IMG_20211113_160054.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\cc22e9bb-4c8e-4710-9630-bb979003e513_Capture.PNG))">
+      <SourceType>Package</SourceType>
+      <SourceId>ThomasianOrglist</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ThomasianOrglist</BasePath>
+      <RelativePath>uploads/cc22e9bb-4c8e-4710-9630-bb979003e513_Capture.PNG</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\cc22e9bb-4c8e-4710-9630-bb979003e513_Capture.PNG))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\da55610b-2a48-412d-b78e-6ba864b20746_AQAL HM SIMPLIFIED.png))">
       <SourceType>Package</SourceType>
       <SourceId>ThomasianOrglist</SourceId>
@@ -1711,6 +1791,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\da55610b-2a48-412d-b78e-6ba864b20746_AQAL HM SIMPLIFIED.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\dd52fe35-318d-4783-8f37-7679ed8e9e19_jim 1x1.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>ThomasianOrglist</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ThomasianOrglist</BasePath>
+      <RelativePath>uploads/dd52fe35-318d-4783-8f37-7679ed8e9e19_jim 1x1.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\dd52fe35-318d-4783-8f37-7679ed8e9e19_jim 1x1.png))</OriginalItemSpec>
     </StaticWebAsset>
   </ItemGroup>
 </Project>

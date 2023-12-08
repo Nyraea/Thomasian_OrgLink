@@ -2,7 +2,10 @@
     ViewData["Title"] = "Sign Up";
 }
 
-@model Student
+@model ThomasianOrglist.ViewModels.RegisterViewModel
+@using System.ComponentModel.DataAnnotations;
+@using ThomasianOrglist.ViewModels
+
 <style>
     body {
         background-image: url('@Url.Content("~/assets/1.png")');
@@ -38,7 +41,14 @@
                 <!-- <input class="form-control margin_forms font_bold" type="text" placeholder="DEGREE PROGRAM" aria-label="default input example" name="program"> -->
                 <!-- <input class="form-control margin_forms font_bold" type="text" placeholder="DEGREE PROGRAM" aria-label="default input example" name="program"> -->
                 <label asp-for="program" class="text-black"></label>
-                <select class="form-select font_bold gray margin_forms" placeholder="DEGREE PROGRAM" asp-for="program" asp-items="Html.GetEnumSelectList(typeof(Program))">
+                <select class="form-select font_bold gray margin_forms" placeholder="DEGREE PROGRAM" asp-for="program">
+                    @foreach(var program in Enum.GetValues(typeof(Program)))
+                    {
+                        var enumName = Enum.GetName(typeof(Program), program);
+                        var displayAttribute = typeof(Program).GetField(enumName)?.GetCustomAttributes(typeof(DisplayAttribute), false)
+                        .FirstOrDefault() as DisplayAttribute;
+                        <option value="@program"> @displayAttribute?.Name</option>
+                    }
                 </select>
 
                 <label asp-for="year_level" class="text-black"></label>

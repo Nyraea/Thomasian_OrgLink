@@ -1,4 +1,4 @@
-﻿@model Student;
+﻿@model ThomasianOrglist.ViewModels.StudentDetailsViewModel
 
 <div class="d-flex align-items-center justify-content-center flex-column ">
         <div style="width:90%;">
@@ -11,22 +11,22 @@
                     </div>
                     <div class="d-flex flex-column flex-sm-row align-items-flex-start justify-content-center">
                         <div class="d-flex align-items-center justify-content-center p-2 w-100 flex-column flex-sm-50">
-                            <img src="../assets/iconprof.png" class="d-block filter" style="width:240px" alt="..." />
+                        <img src="@($"{Model.photo_path}{Model.photo_filename}")" class="d-block filter" style="width:240px" alt="..." />
                             <div class="d-flex align-items-center justify-content-center p-2 w-100">
                             </div>
                         </div>
 
                         <div class="d-flex align-items-center align-items-sm-start justify-content-start p-2 w-100 flex-column flex-sm-50" style="margin-top: 60px;">
                             <br />
-                        <b class="fs-5">FULL NAME:</b> @Model.fname @Model.lname
+                        <b class="fs-5">FULL NAME: @Model.fname @Model.lname</b>
+                        <br />
+                        <b class="fs-5">YEAR LEVEL:@Model.year_level</b>
                             <br />
-                            <b class="fs-5">YEAR LEVEL:</b> @Model.year_level
+                        <b class="fs-5">DEGREE PROGRAM: @Model.program</b>
+                        <br />
+                        <b class="fs-5"> EMAIL: @Model.email</b>
                             <br />
-                        <b class="fs-5">DEGREE PROGRAM:</b> @Model.program
-                            <br />
-                        <b class="fs-5"> EMAIL:</b>@Model.email
-                            <br />
-                        <b class="fs-5">USERNAME</b>@Model.username
+                        <b class="fs-5">USERNAME: @Model.username</b>
                             <div class="d-flex align-items-center align-items-md-center justify-content-center justify-content-md-center p-2 w-100 flex-row flex-md-row flex-md-50" style="margin-top:100px">
                                 <div class="d-flex align-items-center align-items-md-center justify-content-center justify-content-md-center p-2 w-100 flex-column flex-md-row flex-md-50">
                                     <button type="button" class="btn btn-warning ml-md-3 mr-md-3 mr-md-3" style="width:150px; height:50px;"><b> EDIT PROFILE </b> </button>

@@ -1,29 +1,26 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.Identity.Client;
-using System.ComponentModel.DataAnnotations;
+﻿using Microsoft.AspNetCore.Identity;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Diagnostics.CodeAnalysis;
+using System.ComponentModel.DataAnnotations;
 
-namespace ThomasianOrglist.Models
-
+namespace ThomasianOrglist.ViewModels
 {
-    public enum Program 
+    public enum Program
     {
-      [Display(Name = "AMV College of Accountancy")]AMVCOA, 
-        [Display(Name = "Faculty of Arts & Letters")] FAL, 
+        [Display(Name = "AMV College of Accountancy")] AMVCOA,
+        [Display(Name = "Faculty of Arts & Letters")] FAL,
         [Display(Name = "Faculty of Engineering")] FOE,
-        [Display(Name = "Faculty of Medicine & Surgery")] FOMS, 
-        [Display(Name = "Faculty of Pharmacy")] FOP, 
+        [Display(Name = "Faculty of Medicine & Surgery")] FOMS,
+        [Display(Name = "Faculty of Pharmacy")] FOP,
         [Display(Name = "College of Architecture")] COA,
-        [Display(Name = "College of Commerce & Business Administration")] CCBA, 
-        [Display(Name = "College of Education")] COE, 
+        [Display(Name = "College of Commerce & Business Administration")] CCBA,
+        [Display(Name = "College of Education")] COE,
         [Display(Name = "College of Fine Arts & Design")] CFAD,
         [Display(Name = "College of Computing Sciences")] CICS,
         [Display(Name = "College of Nursing")] CON,
         [Display(Name = "College of Tourism & Hospitality Management")] CTHM,
     }
 
-    public class Student
+    public class RegisterViewModel
     {
         [Key]
         [Required]
@@ -48,7 +45,7 @@ namespace ThomasianOrglist.Models
 
 
         [Required(ErrorMessage = "Please choose your program")]
-        public Program program { get; set; }
+        public string program { get; set; }
 
 
         [Required(ErrorMessage = "Please input a year level")]
@@ -72,7 +69,7 @@ namespace ThomasianOrglist.Models
         [Required(ErrorMessage = "Please input a valid password")]
         [DataType(DataType.Password)]
         [RegularExpression("^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[^a-zA-Z0-9])(?=.{8,}).*$", ErrorMessage = "Password must be at least 8 characters long and contain 1 uppercase letter, 1 lowercase letter, 1 digit, and 1 special character")]
-        public string password { get; set;}
+        public string password { get; set; }
 
 
 
@@ -88,8 +85,8 @@ namespace ThomasianOrglist.Models
 
         //Upload files via database
         /*
-public string? photo_data { get; set;}
+        public string? photo_data { get; set;}
          */
- 
+
     }
 }

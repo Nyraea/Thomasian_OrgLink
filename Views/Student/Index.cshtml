@@ -6,14 +6,14 @@
 
 }
 
-@model IEnumerable<Student>
+@model IEnumerable<ThomasianOrglist.Data.Student>
 
 <h2>Students</h2>
 <table class="table">
     <thead>
         <tr>
-            <th>@Html.DisplayNameFor(model => model.username)</th>
-            <th>@Html.DisplayNameFor(model => model.email)</th>
+            <th>@Html.DisplayNameFor(model => model.UserName)</th>
+            <th>@Html.DisplayNameFor(model => model.Email)</th>
             <th>@Html.DisplayNameFor(model => model.fname)</th>
             <th>@Html.DisplayNameFor(model => model.lname)</th>
         </tr>
@@ -22,13 +22,13 @@
         @foreach (var item in Model)
         {
             <tr>
-                <td>@Html.DisplayFor(modelItem => item.username)</td>
-                <td>@Html.DisplayFor(modelItem => item.email)</td>
+                <td>@Html.DisplayFor(modelItem => item.UserName)</td>
+                <td>@Html.DisplayFor(modelItem => item.Email)</td>
                 <td>@Html.DisplayFor(modelItem => item.fname)</td>
                 <td>@Html.DisplayFor(modelItem => item.lname)</td>
                 <td><img src = "@Url.Content(@item.photo_path + @item.photo_filename)"/></td>
 
-                <td><a asp-action="StudentDetails" asp-route-id="@item.user_id" style=" text-decoration:none ; color:black!important"> <button type="button" class="btn btn-info text-black m-2 w-75"> Show Details </button></a></td>
+                <td><a asp-action="StudentDetails" asp-route-id="@item.Id" style=" text-decoration:none ; color:black!important"> <button type="button" class="btn btn-info text-black m-2 w-75"> Show Details </button></a></td>
 
             </tr>
         }
