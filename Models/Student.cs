@@ -51,6 +51,10 @@ namespace ThomasianOrglist.Models
         public Program program { get; set; }
 
 
+        [Required(ErrorMessage = "Please input a year level")]
+        public string year_level { get; set; }
+
+
 
         [Required(ErrorMessage = "Please input a valid email address")]
         [RegularExpression("\\S.*[@][u][s][t][.][e][d][u][.][p][h]", ErrorMessage = "You must follow the format sample@ust.edu.ph")]
@@ -85,10 +89,7 @@ namespace ThomasianOrglist.Models
         //Upload files via database
         /*
 public string? photo_data { get; set;}
-
-[NotMapped]
-public IFormFile? profile_img {  get; set; }
-        */
-
+         */
+ 
     }
 }

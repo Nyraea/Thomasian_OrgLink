@@ -1,0 +1,74 @@
+﻿
+@{
+    ViewData["Title"] = "Register your Org";
+}
+
+@model Organization
+<style>
+    body {
+        background-image: url('@Url.Content("~/assets/1.png")');
+        background-size: cover;
+    }
+</style>
+
+<div class="row justify-content-center align-items-center border border-0 my-5 py-5">
+
+    <div class="col-lg-4 collapse d-none d-sm-flex bg-danger">
+    </div>
+
+    <div class=" col-lg-4 col-md-6 col-sm-4 bg-black d-flex flex-column justify-content-center align-items-center border border-0 rounded-3 my-3 pb-2">
+        <div class=" w-75 py-2 mb-4">
+
+            <div class="d-flex pt-5 mt-5">
+                <h3 class="text-white my-2"><b>REGISTER YOUR ORG</b></h3>
+            </div>
+
+            <!-- <p class="card-text">WELCOME TO UST</p> -->
+            <form class="form-flex column" asp-action="Register" method="post" enctype="multipart/form-data">
+
+                <label asp-for="OrgName" class="text-black"></label>
+                <input class="form-control margin_forms bold" type="text" placeholder="NAME OF THE ORG" aria-label="default input example" asp-for="OrgName">
+
+                <label asp-for="emailAdd" class="text-black"></label>
+                <input class="form-control margin_forms font_bold" type="text" placeholder="EMAIL ADDRESS" aria-label="default input example" asp-for="emailAdd">
+
+
+                <label asp-for="Password" class="text-black"></label>
+                <input class="form-control margin_forms font_bold mb-3" type="password" placeholder="PASSWORD" aria-label="default input example" asp-for="Password">
+
+                <label asp-for="dept" class="text-black"></label>
+                <select class="form-select font_bold gray margin_forms" placeholder="DEGREE PROGRAM" asp-for="dept" asp-items="Html.GetEnumSelectList(typeof(Department))">
+                </select>
+
+                <label asp-for="Vision" class="text-black"></label>
+                <input class="form-control margin_forms font_bold" type="text" placeholder="VISION" aria-label="default input example" asp-for="Vision">
+
+                <label asp-for="Mission" class="text-black"></label>
+                <input class="form-control margin_forms font_bold" type="text" placeholder="MISSION" aria-label="default input example" asp-for="Mission">
+
+                <label asp-for="Details" class="text-black"></label>
+                <textarea class="form-control margin_forms font_bold" placeholder="DETAILS" aria-label="default input example" asp-for="Details"></textarea>
+
+
+                <br />
+                <div class="mb-5">
+                    <label for="formFile" class="form-label text-white"><b>ORGANIZATION ICON</b></label>
+                    <p class="text-white">This only accepts .jpeg .jpg and .png files. </p>
+                    <input asp-for="org_img" class="form-control" type="file">
+                </div>
+                <div class="text-white" asp-validation-summary="All">
+                </div>
+                <div class="d-flex flex-column align-items-center mt-1 pt-1">
+                    <button type="submit" asp-action="OrgAdd" method="POST" class="btn btn-warning link-black my-2 w-100"><b>REGISTER</b></button>
+                    <!--<a class="btn btn-dark my-2 w-100" asp-controller="Student" asp-action="LoginStudent"><b>LOGIN</b></a>-->
+
+                </div>
+            </form>
+        </div>
+
+    </div>
+
+    <div class="col-lg-4 collapse d-none d-sm-flex bg-warning">
+    </div>
+</div>
+

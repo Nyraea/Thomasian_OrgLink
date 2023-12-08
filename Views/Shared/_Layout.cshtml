@@ -44,7 +44,7 @@
                             <a class="link-white mx-3 px-3 py-1 border-1 rounded" asp-area="" asp-controller="Home" asp-action="ViewOrg"><b>ORGS</b></a>
                         </li>
                         <li class="nav-item">
-                            <a class="link-black  mx-3 px-3 py-1 border-1 rounded" asp-area="" asp-controller="Student" asp-action=""><b>APPLY</b></a>
+                            <a class="link-black  mx-3 px-3 py-1 border-1 rounded" asp-area="" asp-controller="Org" asp-action="Register"><b>REGISTER</b></a>
                         </li>
                     </ul>
                 </div>
@@ -59,12 +59,15 @@
 
                 <div class="d-flex ms-3 w-10 collapse d-none d-sm-inline-flex justify-content-center ">
                 </div>
-
+                
+                
                 @*NAV ICONS*@
                 <div class="d-flex mx-3 w-25 collapse d-none d-sm-inline-flex justify-content-center" >
                     <div class="dropdown">
                         <a class="navbar-collapse collapse" data-bs-toggle="dropdown"> <img class="w-30 m-auto" src="~/assets/iconprof.png" /> </a>
                         <ul class="dropdown-menu bg-black px-5 py-5 mt-2">
+                        
+                            
                             <li><a asp-area="" asp-controller="Student" asp-action="LoginStudent" class="dropdown-item link-black-2 bg-warning border border-0 rounded-3 mb-2"><b>LOGIN</b></a></li>
                             <li><a asp-area="" asp-controller="Student" asp-action="AddStudent" class="dropdown-item bg-light link-white-2 border border-0 rounded-3 mt-2"><b>REGISTER</b></a></li>
                         </ul>

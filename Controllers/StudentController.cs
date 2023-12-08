@@ -3,16 +3,25 @@ using System;
 using ThomasianOrglist.Models;
 using ThomasianOrglist.Data;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity;
 
 namespace ThomasianOrglist.Controllers
 {
     public class StudentController : Controller
     {
+      
+
         private readonly ILogger<StudentController> _logger;
         private readonly AppDbContext _dbContext;
         private readonly IWebHostEnvironment _webHostEnvironment;
         const string Session_UserID = "_UserId";
         const string Session_Username = "_UserName";
+
+        const string Session_FName = "_FName";
+        const string Session_LName = "_LName";
+        const string Session_Email = "_Email";
+        const string Session_Program = "_Program";
 
         // Binding database and other components to variables
         public StudentController(ILogger<StudentController> logger, IWebHostEnvironment hostEnvironment , AppDbContext dbContext)
@@ -115,8 +124,22 @@ namespace ThomasianOrglist.Controllers
         {
             //Storing Data into Session using SetString and SetInt32 method
             HttpContext.Session.SetString(Session_Username, "magraviador123");
-            HttpContext.Session.SetInt32(Session_UserID, 1);
-            return RedirectToAction("StudentDetails");
+            int userID = 1;
+            HttpContext.Session.SetInt32(Session_UserID, userID);
+
+            // Redirect to StudentDetails with userID
+            return RedirectToAction("StudentDetails", new { id = userID });
+        }
+
+        public IActionResult GetStudent(int id)
+        {
+            var student = _dbContext.Students.Find(id);
+            if (student == null)
+            {
+                return NotFound();
+            }
+
+            return View(student);
         }
 
         public string About()
@@ -129,19 +152,29 @@ namespace ThomasianOrglist.Controllers
         }
 
         [HttpGet]
-        public IActionResult StudentDetails()
+        public IActionResult StudentDetails(int id)
         {
-            return View();
+            var student = _dbContext.Students.Find(id);
+            if (student == null)
+            {
+                return NotFound();
+            }
 
-
+            return View(student);
         }
-
         [HttpGet]
         public IActionResult Aform() 
         {
         
             return View();
         
+        }
+        [HttpGet]
+        public IActionResult AddNewInfo()
+        {
+            return View();
+
+
         }
         [HttpGet]
         public IActionResult EditAccount()
