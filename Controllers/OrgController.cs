@@ -15,7 +15,7 @@ namespace ThomasianOrglist.Controllers
         const string Session_UserID = "_OrgId";
         const string Session_Username = "_OrgName";
 
-       
+
 
         public OrgController(ILogger<OrgController> logger, IWebHostEnvironment hostEnvironment, AppDbContext dbContext)
         {
@@ -23,6 +23,7 @@ namespace ThomasianOrglist.Controllers
             _webHostEnvironment = hostEnvironment;
             _appDbContext = dbContext;
         }
+
 
         [HttpGet]
         public IActionResult Register()
@@ -34,9 +35,10 @@ namespace ThomasianOrglist.Controllers
         {
             Organization? emailExists = _appDbContext.Organizations.FirstOrDefault(st => st.emailAdd == newOrganization.emailAdd);
             Organization? usernameExists = _appDbContext.Organizations.FirstOrDefault(st => st.OrgName == newOrganization.OrgName);
+
             if (newOrganization.org_img != null && ModelState.IsValid && emailExists == null && usernameExists == null)
             {
-                string fileName = null;        
+                string fileName = null;
                 byte[] bytes = null;
                 // Upload files via wwwroot 
 
@@ -48,26 +50,16 @@ namespace ThomasianOrglist.Controllers
                 {
                     newOrganization.org_img.CopyTo(fileStream);
                 }
+
                 newOrganization.photo_path = "~/uploads/";
                 newOrganization.photo_filename = fileName;
 
-                // Upload files via database
-                /*
-                using (Stream fileStream = newStudent.profile_img.OpenReadStream())
-                {
-                    using (BinaryReader br = new BinaryReader(fileStream))
-                    {
-                        bytes = br.ReadBytes((Int32)fileStream.Length);
-                    }
-                }
-
-                // Converts bytes to base 64 string
-                newStudent.photo_data = Convert.ToBase64String(bytes, 0, bytes.Length);
-                */
+                // Set the DepartmentId for the new organization
+                // Replace with the actual department ID
 
                 _appDbContext.Organizations.Add(newOrganization);
                 _appDbContext.SaveChanges();
-                return RedirectToAction("Index", "Home");
+                return RedirectToAction("ViewOrg", "Department");
             }
 
             else if (emailExists != null)
@@ -85,6 +77,7 @@ namespace ThomasianOrglist.Controllers
                 return View("Register");
             }
         }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {

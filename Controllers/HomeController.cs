@@ -18,16 +18,6 @@ namespace ThomasianOrglist.Controllers
             return View();
         }
 
-        public IActionResult ViewOrg()
-        {
-            return View();
-        }
-        public IActionResult Details()
-        {
-            return View();
-        }
-        
-
         public IActionResult Privacy()
         {
             return View();
@@ -39,4 +29,4 @@ namespace ThomasianOrglist.Controllers
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
     }
-}
+}}
