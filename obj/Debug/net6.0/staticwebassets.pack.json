@@ -17,8 +17,40 @@
       "PackagePath": "staticwebassets\\assets\\3.png"
     },
     {
+      "Id": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\assets\\AccScar.png",
+      "PackagePath": "staticwebassets\\assets\\AccScar.png"
+    },
+    {
+      "Id": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\assets\\Amsa.jpg",
+      "PackagePath": "staticwebassets\\assets\\Amsa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\assets\\CFC.jpg",
+      "PackagePath": "staticwebassets\\assets\\CFC.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\assets\\CNAG.jpg",
+      "PackagePath": "staticwebassets\\assets\\CNAG.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\assets\\IEEE.png",
+      "PackagePath": "staticwebassets\\assets\\IEEE.png"
+    },
+    {
       "Id": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\assets\\Logo.png",
       "PackagePath": "staticwebassets\\assets\\Logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\assets\\MMIs.jpg",
+      "PackagePath": "staticwebassets\\assets\\MMIs.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\assets\\SITE.png",
+      "PackagePath": "staticwebassets\\assets\\SITE.png"
+    },
+    {
+      "Id": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\assets\\aces.jpg",
+      "PackagePath": "staticwebassets\\assets\\aces.jpg"
     },
     {
       "Id": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\assets\\amv.png",
@@ -29,24 +61,80 @@
       "PackagePath": "staticwebassets\\assets\\arch.png"
     },
     {
+      "Id": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\assets\\archinet.jpg",
+      "PackagePath": "staticwebassets\\assets\\archinet.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\assets\\arkitrato.jpg",
+      "PackagePath": "staticwebassets\\assets\\arkitrato.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\assets\\artistangartlets.jpg",
+      "PackagePath": "staticwebassets\\assets\\artistangartlets.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\assets\\artistangartlets2.png",
+      "PackagePath": "staticwebassets\\assets\\artistangartlets2.png"
+    },
+    {
       "Id": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\assets\\arts.png",
       "PackagePath": "staticwebassets\\assets\\arts.png"
+    },
+    {
+      "Id": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\assets\\becarios.png",
+      "PackagePath": "staticwebassets\\assets\\becarios.png"
     },
     {
       "Id": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\assets\\bgindex.jpg",
       "PackagePath": "staticwebassets\\assets\\bgindex.jpg"
     },
     {
+      "Id": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\assets\\biochem.png",
+      "PackagePath": "staticwebassets\\assets\\biochem.png"
+    },
+    {
+      "Id": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\assets\\bosconian.jpg",
+      "PackagePath": "staticwebassets\\assets\\bosconian.jpg"
+    },
+    {
       "Id": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\assets\\business.png",
       "PackagePath": "staticwebassets\\assets\\business.png"
+    },
+    {
+      "Id": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\assets\\caa.jpg",
+      "PackagePath": "staticwebassets\\assets\\caa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\assets\\cfcyf.jpg",
+      "PackagePath": "staticwebassets\\assets\\cfcyf.jpg"
     },
     {
       "Id": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\assets\\cics.png",
       "PackagePath": "staticwebassets\\assets\\cics.png"
     },
     {
+      "Id": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\assets\\cinecon.png",
+      "PackagePath": "staticwebassets\\assets\\cinecon.png"
+    },
+    {
+      "Id": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\assets\\comach.jpg",
+      "PackagePath": "staticwebassets\\assets\\comach.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\assets\\commAchCom.jpg",
+      "PackagePath": "staticwebassets\\assets\\commAchCom.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\assets\\cya.jpg",
+      "PackagePath": "staticwebassets\\assets\\cya.jpg"
+    },
+    {
       "Id": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\assets\\educ.png",
       "PackagePath": "staticwebassets\\assets\\educ.png"
+    },
+    {
+      "Id": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\assets\\emailicon.png",
+      "PackagePath": "staticwebassets\\assets\\emailicon.png"
     },
     {
       "Id": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\assets\\eng.png",
@@ -61,8 +149,24 @@
       "PackagePath": "staticwebassets\\assets\\fine-arts.png"
     },
     {
+      "Id": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\assets\\glee.jpg",
+      "PackagePath": "staticwebassets\\assets\\glee.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\assets\\guts.png",
+      "PackagePath": "staticwebassets\\assets\\guts.png"
+    },
+    {
       "Id": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\assets\\hamburger.png",
       "PackagePath": "staticwebassets\\assets\\hamburger.png"
+    },
+    {
+      "Id": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\assets\\hcsyc.jpg",
+      "PackagePath": "staticwebassets\\assets\\hcsyc.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\assets\\hrms.jpg",
+      "PackagePath": "staticwebassets\\assets\\hrms.jpg"
     },
     {
       "Id": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\assets\\iconprof.png",
@@ -73,24 +177,72 @@
       "PackagePath": "staticwebassets\\assets\\ig.png"
     },
     {
+      "Id": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\assets\\intenz.png",
+      "PackagePath": "staticwebassets\\assets\\intenz.png"
+    },
+    {
+      "Id": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\assets\\journalism.jpg",
+      "PackagePath": "staticwebassets\\assets\\journalism.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\assets\\jpia.jpg",
+      "PackagePath": "staticwebassets\\assets\\jpia.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\assets\\jppa.jpg",
+      "PackagePath": "staticwebassets\\assets\\jppa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\assets\\juniormarketing.jpg",
+      "PackagePath": "staticwebassets\\assets\\juniormarketing.jpg"
+    },
+    {
       "Id": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\assets\\logoicon.png",
       "PackagePath": "staticwebassets\\assets\\logoicon.png"
+    },
+    {
+      "Id": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\assets\\medicalmission.jpg",
+      "PackagePath": "staticwebassets\\assets\\medicalmission.jpg"
     },
     {
       "Id": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\assets\\medicine.png",
       "PackagePath": "staticwebassets\\assets\\medicine.png"
     },
     {
+      "Id": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\assets\\mts.jpg",
+      "PackagePath": "staticwebassets\\assets\\mts.jpg"
+    },
+    {
       "Id": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\assets\\musicat.jpg",
       "PackagePath": "staticwebassets\\assets\\musicat.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\assets\\nees.png",
+      "PackagePath": "staticwebassets\\assets\\nees.png"
     },
     {
       "Id": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\assets\\nursing.png",
       "PackagePath": "staticwebassets\\assets\\nursing.png"
     },
     {
+      "Id": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\assets\\panoc.jpg",
+      "PackagePath": "staticwebassets\\assets\\panoc.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\assets\\pedag.jpg",
+      "PackagePath": "staticwebassets\\assets\\pedag.jpg"
+    },
+    {
       "Id": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\assets\\pharma.png",
       "PackagePath": "staticwebassets\\assets\\pharma.png"
+    },
+    {
+      "Id": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\assets\\polymat.jpg",
+      "PackagePath": "staticwebassets\\assets\\polymat.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\assets\\redcrossnurse.jpg",
+      "PackagePath": "staticwebassets\\assets\\redcrossnurse.jpg"
     },
     {
       "Id": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\assets\\sample.jpg",
@@ -105,6 +257,10 @@
       "PackagePath": "staticwebassets\\assets\\sgawi.jpg"
     },
     {
+      "Id": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\assets\\sts.jpg",
+      "PackagePath": "staticwebassets\\assets\\sts.jpg"
+    },
+    {
       "Id": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\assets\\teatrotomasino.png",
       "PackagePath": "staticwebassets\\assets\\teatrotomasino.png"
     },
@@ -113,12 +269,20 @@
       "PackagePath": "staticwebassets\\assets\\tgs.png"
     },
     {
+      "Id": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\assets\\thomasianJunior.jpg",
+      "PackagePath": "staticwebassets\\assets\\thomasianJunior.jpg"
+    },
+    {
       "Id": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\assets\\tomweb.png",
       "PackagePath": "staticwebassets\\assets\\tomweb.png"
     },
     {
       "Id": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\assets\\tomweb1.jpg",
       "PackagePath": "staticwebassets\\assets\\tomweb1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\assets\\touchpoint.jpg",
+      "PackagePath": "staticwebassets\\assets\\touchpoint.jpg"
     },
     {
       "Id": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\assets\\tourism.png",
@@ -389,80 +553,8 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\uploads\\143c849c-5549-4a66-83ab-0b5cfe0518b5_jim 1x1.png",
-      "PackagePath": "staticwebassets\\uploads\\143c849c-5549-4a66-83ab-0b5cfe0518b5_jim 1x1.png"
-    },
-    {
-      "Id": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\uploads\\30c3c853-b4d4-4aa3-b4fd-d9b2c338b16a_asdasd.png",
-      "PackagePath": "staticwebassets\\uploads\\30c3c853-b4d4-4aa3-b4fd-d9b2c338b16a_asdasd.png"
-    },
-    {
-      "Id": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\uploads\\311fb39c-0e8b-44c0-a589-ec87b43760e4_asdasd.png",
-      "PackagePath": "staticwebassets\\uploads\\311fb39c-0e8b-44c0-a589-ec87b43760e4_asdasd.png"
-    },
-    {
-      "Id": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\uploads\\37751fe0-df91-413c-873f-9691c74ee7b5_asdasd.png",
-      "PackagePath": "staticwebassets\\uploads\\37751fe0-df91-413c-873f-9691c74ee7b5_asdasd.png"
-    },
-    {
-      "Id": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\uploads\\525d199d-915c-44fe-8f5a-9d1712687e8e_asdasd.png",
-      "PackagePath": "staticwebassets\\uploads\\525d199d-915c-44fe-8f5a-9d1712687e8e_asdasd.png"
-    },
-    {
-      "Id": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\uploads\\5956f06a-2bc0-4acf-a5e8-cc88c7f6abbd_jim 1x1.png",
-      "PackagePath": "staticwebassets\\uploads\\5956f06a-2bc0-4acf-a5e8-cc88c7f6abbd_jim 1x1.png"
-    },
-    {
-      "Id": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\uploads\\6f632af8-f18c-4ea4-b101-c002cbcc982f_ADADD.png",
-      "PackagePath": "staticwebassets\\uploads\\6f632af8-f18c-4ea4-b101-c002cbcc982f_ADADD.png"
-    },
-    {
-      "Id": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\uploads\\76ebbe92-e1d0-44c8-9581-ddbbbab2158c_Bubbles (Halloween).png",
-      "PackagePath": "staticwebassets\\uploads\\76ebbe92-e1d0-44c8-9581-ddbbbab2158c_Bubbles (Halloween).png"
-    },
-    {
-      "Id": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\uploads\\84473f2e-3485-4c51-b0db-cb1e55dfd17b_370253735_1025993385119633_46073727908298926_n.jpg",
-      "PackagePath": "staticwebassets\\uploads\\84473f2e-3485-4c51-b0db-cb1e55dfd17b_370253735_1025993385119633_46073727908298926_n.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\uploads\\98f5ee0d-a534-441b-8d87-2ace7b12492c_AQAL HM SIMPLIFIED.png",
-      "PackagePath": "staticwebassets\\uploads\\98f5ee0d-a534-441b-8d87-2ace7b12492c_AQAL HM SIMPLIFIED.png"
-    },
-    {
-      "Id": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\uploads\\a1171b26-63a4-444a-9011-62aa2af0edd6_Haikyuu.png",
-      "PackagePath": "staticwebassets\\uploads\\a1171b26-63a4-444a-9011-62aa2af0edd6_Haikyuu.png"
-    },
-    {
-      "Id": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\uploads\\a3fe5925-75c5-426f-a735-38776d890e9c_joe 1x1.jpg",
-      "PackagePath": "staticwebassets\\uploads\\a3fe5925-75c5-426f-a735-38776d890e9c_joe 1x1.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\uploads\\a4369101-cf75-49bd-8982-ec7038f77686_AQAL HM SIMPLIFIED.png",
-      "PackagePath": "staticwebassets\\uploads\\a4369101-cf75-49bd-8982-ec7038f77686_AQAL HM SIMPLIFIED.png"
-    },
-    {
-      "Id": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\uploads\\acc641e7-e19c-4655-86e7-768cc244849e_jim 1x1.png",
-      "PackagePath": "staticwebassets\\uploads\\acc641e7-e19c-4655-86e7-768cc244849e_jim 1x1.png"
-    },
-    {
-      "Id": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\uploads\\bef05372-f909-47ad-afa1-d6528b10a0c1_Pic.PNG",
-      "PackagePath": "staticwebassets\\uploads\\bef05372-f909-47ad-afa1-d6528b10a0c1_Pic.PNG"
-    },
-    {
-      "Id": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\uploads\\c98554cf-a658-4a11-8a83-6a2fbf44320b_IMG_20211113_160054.jpg",
-      "PackagePath": "staticwebassets\\uploads\\c98554cf-a658-4a11-8a83-6a2fbf44320b_IMG_20211113_160054.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\uploads\\cc22e9bb-4c8e-4710-9630-bb979003e513_Capture.PNG",
-      "PackagePath": "staticwebassets\\uploads\\cc22e9bb-4c8e-4710-9630-bb979003e513_Capture.PNG"
-    },
-    {
-      "Id": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\uploads\\da55610b-2a48-412d-b78e-6ba864b20746_AQAL HM SIMPLIFIED.png",
-      "PackagePath": "staticwebassets\\uploads\\da55610b-2a48-412d-b78e-6ba864b20746_AQAL HM SIMPLIFIED.png"
-    },
-    {
-      "Id": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\uploads\\dd52fe35-318d-4783-8f37-7679ed8e9e19_jim 1x1.png",
-      "PackagePath": "staticwebassets\\uploads\\dd52fe35-318d-4783-8f37-7679ed8e9e19_jim 1x1.png"
+      "Id": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\uploads\\e07b45ea-6f63-454b-88e1-dc2f7643e3bc_sherk.jpg",
+      "PackagePath": "staticwebassets\\uploads\\e07b45ea-6f63-454b-88e1-dc2f7643e3bc_sherk.jpg"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.ThomasianOrglist.Microsoft.AspNetCore.StaticWebAssets.props",
