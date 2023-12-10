@@ -32,6 +32,7 @@ namespace ThomasianOrglist.Models
         public int org_id { get; set; }
 
         [Required(ErrorMessage = "Please input your Facebook Page Link")]
+        [RegularExpression(@"^(https?:\/\/)?(www\.)?facebook\.com\/.+", ErrorMessage = "Invalid Facebook Page Link")]
         public string UrlLink { get; set; }
 
 
