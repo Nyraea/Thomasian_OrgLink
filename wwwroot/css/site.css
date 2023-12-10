@@ -292,3 +292,13 @@ animation-fill-mode: forwards;
     justify-content: flex-end;
     align-items: flex-start;
 }
+
+/* Style to remove bullet points */
+.validation-summary-errors ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+    .validation-summary-errors ul li {
+        /* Add any additional styling for the list items if needed */

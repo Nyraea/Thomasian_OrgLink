@@ -4,29 +4,8 @@ using System.ComponentModel.DataAnnotations;
 
 namespace ThomasianOrglist.ViewModels
 {
-    public enum Program
-    {
-        [Display(Name = "AMV College of Accountancy")] AMVCOA,
-        [Display(Name = "Faculty of Arts & Letters")] FAL,
-        [Display(Name = "Faculty of Engineering")] FOE,
-        [Display(Name = "Faculty of Medicine & Surgery")] FOMS,
-        [Display(Name = "Faculty of Pharmacy")] FOP,
-        [Display(Name = "College of Architecture")] COA,
-        [Display(Name = "College of Commerce & Business Administration")] CCBA,
-        [Display(Name = "College of Education")] COE,
-        [Display(Name = "College of Fine Arts & Design")] CFAD,
-        [Display(Name = "College of Computing Sciences")] CICS,
-        [Display(Name = "College of Nursing")] CON,
-        [Display(Name = "College of Tourism & Hospitality Management")] CTHM,
-    }
-
     public class RegisterViewModel
     {
-        [Key]
-        [Required]
-        public int user_id { get; set; }
-
-
 
         [Required(ErrorMessage = "Please input your first name")]
         public string fname { get; set; }
@@ -49,6 +28,7 @@ namespace ThomasianOrglist.ViewModels
 
 
         [Required(ErrorMessage = "Please input a year level")]
+        [RegularExpression("^[1-4]$", ErrorMessage = "Year level must be a value ranging from 1 to 4.")]
         public string year_level { get; set; }
 
 

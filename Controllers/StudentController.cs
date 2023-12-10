@@ -223,18 +223,6 @@ namespace ThomasianOrglist.Controllers
         }
 
 
-        public IActionResult GetStudent(int id)
-        {
-            var student = _dbContext.Students.Find(id);
-            if (student == null)
-            {
-                return NotFound();
-            }
-
-            return View(student);
-        }
-
-
         [HttpGet]
         public IActionResult StudentDetails()
         {
@@ -248,19 +236,102 @@ namespace ThomasianOrglist.Controllers
                 photo_path = currentUser.photo_path,
                 photo_filename = currentUser.photo_filename,
                 username = currentUser.UserName,
-                email = currentUser.Email
+                email = currentUser.Email,
+                pnumber = currentUser.PhoneNumber
             };
             return View(profileViewModel);
         }
 
+        [HttpGet]
+        public IActionResult EditAccount()
+        {
+            return View();
+        }
+
+
+        [HttpPost]
+        public async Task<IActionResult> AccountEdit(EditAccountViewModel userData)
+        {
+            if (ModelState.IsValid)
+            {
+                var currentUser = _userManager.FindByNameAsync(User.Identity.Name).Result;
+                var passwordValid = await _userManager.CheckPasswordAsync(currentUser, userData.oldPassword);
+                if (passwordValid == true)
+                {
+                    currentUser.fname = userData.fname != null ? userData.fname : currentUser.fname;
+                    currentUser.lname = userData.lname != null ? userData.lname : currentUser.lname;
+                    currentUser.PhoneNumber = userData.pnumber != null ? userData.pnumber : currentUser.PhoneNumber;
+                    currentUser.PasswordHash = userData.newPassword != null ? userData.newPassword : currentUser.PasswordHash;
+                    currentUser.program = userData.program != null ? userData.program : currentUser.program;
+                    currentUser.year_level = userData.year_level != null ? userData.year_level : currentUser.year_level;
+                    currentUser.UserName = userData.username != null ? userData.username : currentUser.UserName;
+                    currentUser.Email = userData.email != null ? userData.email : currentUser.Email;
+
+
+                    if (userData.profile_img != null)
+                    {
+                        string fileName = null;
+                        byte[] bytes = null;
+
+                        // Upload files via wwwroot 
+
+                        string UploadsFolder = Path.Combine(_webHostEnvironment.WebRootPath, "uploads");
+                        fileName = Guid.NewGuid().ToString() + "_" + userData.profile_img.FileName;
+                        string filePath = Path.Combine(UploadsFolder, fileName);
+
+                        using (var fileStream = new FileStream(filePath, FileMode.Create))
+                        {
+                            userData.profile_img.CopyTo(fileStream);
+                        }
+
+                        currentUser.photo_path = userData.photo_path;
+                        currentUser.photo_filename = userData.photo_filename;
+                    }
+                    else
+                    {
+                        currentUser.photo_path = currentUser.photo_path;
+                        currentUser.photo_filename = currentUser.photo_filename;
+                    }
+
+                    var result = await _userManager.UpdateAsync(currentUser);
+                    var updatedUser = await _userManager.FindByIdAsync(currentUser.Id);
+                    await _signInManager.SignOutAsync();
+                    await _signInManager.SignInAsync(updatedUser, isPersistent: false);
+                    if (result.Succeeded)
+                    {
+                        return RedirectToAction("StudentDetails", "Student");
+                    }
+                    else
+                    {
+                        foreach (var error in result.Errors)
+                        {
+                            ModelState.AddModelError("", error.Description);
+                        }
+                        return View("EditAccount");
+                    }
+                }
+                else
+                {
+                    return View("EditAccount");
+                }
+            }
+            else
+            {
+                return View("EditAccount");
+            }
+            
+
+        }
+
+
 
 
         [HttpGet]
-        public IActionResult Aform() 
+        public IActionResult Aform()
         {
-        
+
             return View();
-        
+
         }
 
 
@@ -270,15 +341,6 @@ namespace ThomasianOrglist.Controllers
         {
             return View();
         }
-
-
-
-        [HttpGet]
-        public IActionResult EditAccount()
-        {
-            return View();
-        }        
-        
 
     }
 
