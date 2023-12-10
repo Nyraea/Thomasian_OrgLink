@@ -284,8 +284,8 @@ namespace ThomasianOrglist.Controllers
                             userData.profile_img.CopyTo(fileStream);
                         }
 
-                        currentUser.photo_path = userData.photo_path;
-                        currentUser.photo_filename = userData.photo_filename;
+                        currentUser.photo_path = "/uploads/";
+                        currentUser.photo_filename = fileName;
                     }
                     else
                     {
