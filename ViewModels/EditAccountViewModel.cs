@@ -46,7 +46,7 @@ namespace ThomasianOrglist.ViewModels
         [RegularExpression("^[1-4]$", ErrorMessage = "Year level must be a value ranging from 1 to 4.")]
         public string? year_level { get; set; }
 
-        [Required(ErrorMessage ="Please input your current password!")]
+        [Required(ErrorMessage ="Please enter your current password!")]
         [DataType(DataType.Password)]
         public string? oldPassword {  get; set; }
 

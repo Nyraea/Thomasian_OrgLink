@@ -2256,6 +2256,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\c65848e4-d42a-419e-9251-8edb09afd889_Bubbles (Halloween).png))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\dba071f2-86dd-46a1-95f8-9b2a0e3517f7_Bubbles (Halloween).png))">
+      <SourceType>Package</SourceType>
+      <SourceId>ThomasianOrglist</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ThomasianOrglist</BasePath>
+      <RelativePath>uploads/dba071f2-86dd-46a1-95f8-9b2a0e3517f7_Bubbles (Halloween).png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\dba071f2-86dd-46a1-95f8-9b2a0e3517f7_Bubbles (Halloween).png))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\e07b45ea-6f63-454b-88e1-dc2f7643e3bc_sherk.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>ThomasianOrglist</SourceId>

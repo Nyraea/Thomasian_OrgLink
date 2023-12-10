@@ -303,20 +303,19 @@ namespace ThomasianOrglist.Controllers
                     }
                     else
                     {
-                        foreach (var error in result.Errors)
-                        {
-                            ModelState.AddModelError("", error.Description);
-                        }
+                        ModelState.AddModelError("", "Invalid password!");
                         return View("EditAccount");
                     }
                 }
                 else
                 {
+                    ModelState.AddModelError("", "Invalid password!");
                     return View("EditAccount");
                 }
             }
             else
             {
+                ModelState.AddModelError("", "Invalid password!");
                 return View("EditAccount");
             }
             
