@@ -49,7 +49,7 @@ namespace ThomasianOrglist.Models
         [Required(ErrorMessage = "Please choose what department")]
         [ForeignKey("DepartmentId")]
         public DepartmentName DepartmentId { get; set; }
-
+       
         // Navigation property for the one-to-many relationsh
 
 
