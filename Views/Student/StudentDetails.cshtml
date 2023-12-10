@@ -26,10 +26,12 @@
                         <br />
                         <b class="fs-5"> EMAIL: @Model.email</b>
                             <br />
+                        <b class="fs-5">PHONE NUMBER: @Model.pnumber</b>
+                        <br />
                         <b class="fs-5">USERNAME: @Model.username</b>
                             <div class="d-flex align-items-center align-items-md-center justify-content-center justify-content-md-center p-2 w-100 flex-row flex-md-row flex-md-50" style="margin-top:100px">
                                 <div class="d-flex align-items-center align-items-md-center justify-content-center justify-content-md-center p-2 w-100 flex-column flex-md-row flex-md-50">
-                                    <button type="button" class="btn btn-warning ml-md-3 mr-md-3 mr-md-3" style="width:150px; height:50px;"><b> EDIT PROFILE </b> </button>
+                                    <a asp-area="" asp-controller="Student" asp-action="EditAccount" class="btn btn-warning ml-md-3 mr-md-3 mr-md-3" style="width:150px; height:50px;"><b>EDIT PROFILE</b></a>
                                 </div>
                             </div>
                         </div>

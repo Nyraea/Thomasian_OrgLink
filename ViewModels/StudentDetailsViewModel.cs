@@ -11,6 +11,7 @@ namespace ThomasianOrglist.ViewModels
             public string lname { get; set; }
             public string program { get; set; }
             public string year_level { get; set; }
+            public string pnumber {  get; set; }
             public string? photo_path { get; set; }
             public string? photo_filename { get; set; }
 

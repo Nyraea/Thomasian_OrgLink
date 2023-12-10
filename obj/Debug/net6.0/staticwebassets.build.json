@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Yl43axnePippnaiT1F7LESOoqvrEKAMFO/oEscLR6/s=",
+  "Hash": "YQxM9anzeGkmSktUYFW4q2Vo+nK12CnWMZ3y01s41Pk=",
   "Source": "ThomasianOrglist",
   "BasePath": "_content/ThomasianOrglist",
   "Mode": "Default",
@@ -2822,6 +2822,23 @@
       "OriginalItemSpec": "wwwroot\\uploads\\6f632af8-f18c-4ea4-b101-c002cbcc982f_ADADD.png"
     },
     {
+      "Identity": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\uploads\\76ebbe92-e1d0-44c8-9581-ddbbbab2158c_Bubbles (Halloween).png",
+      "SourceId": "ThomasianOrglist",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\",
+      "BasePath": "_content/ThomasianOrglist",
+      "RelativePath": "uploads/76ebbe92-e1d0-44c8-9581-ddbbbab2158c_Bubbles (Halloween).png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\76ebbe92-e1d0-44c8-9581-ddbbbab2158c_Bubbles (Halloween).png"
+    },
+    {
       "Identity": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\uploads\\84473f2e-3485-4c51-b0db-cb1e55dfd17b_370253735_1025993385119633_46073727908298926_n.jpg",
       "SourceId": "ThomasianOrglist",
       "SourceType": "Discovered",
@@ -2873,6 +2890,23 @@
       "OriginalItemSpec": "wwwroot\\uploads\\a1171b26-63a4-444a-9011-62aa2af0edd6_Haikyuu.png"
     },
     {
+      "Identity": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\uploads\\a3fe5925-75c5-426f-a735-38776d890e9c_joe 1x1.jpg",
+      "SourceId": "ThomasianOrglist",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\",
+      "BasePath": "_content/ThomasianOrglist",
+      "RelativePath": "uploads/a3fe5925-75c5-426f-a735-38776d890e9c_joe 1x1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\a3fe5925-75c5-426f-a735-38776d890e9c_joe 1x1.jpg"
+    },
+    {
       "Identity": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\uploads\\a4369101-cf75-49bd-8982-ec7038f77686_AQAL HM SIMPLIFIED.png",
       "SourceId": "ThomasianOrglist",
       "SourceType": "Discovered",
@@ -2888,6 +2922,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\a4369101-cf75-49bd-8982-ec7038f77686_AQAL HM SIMPLIFIED.png"
+    },
+    {
+      "Identity": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\uploads\\acc641e7-e19c-4655-86e7-768cc244849e_jim 1x1.png",
+      "SourceId": "ThomasianOrglist",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\",
+      "BasePath": "_content/ThomasianOrglist",
+      "RelativePath": "uploads/acc641e7-e19c-4655-86e7-768cc244849e_jim 1x1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\acc641e7-e19c-4655-86e7-768cc244849e_jim 1x1.png"
     },
     {
       "Identity": "C:\\Users\\Ms. Mildred Santos\\source\\repos\\ThomasianOrglist\\Thomasian_OrgLink\\wwwroot\\uploads\\bef05372-f909-47ad-afa1-d6528b10a0c1_Pic.PNG",
