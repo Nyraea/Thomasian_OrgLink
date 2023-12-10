@@ -36,6 +36,7 @@ if (!app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 var context = app.Services.CreateScope().ServiceProvider.GetRequiredService <AppDbContext>();
 context.Database.EnsureCreated(); //if database does not exist, create it!
+//context.Database.EnsureDeleted();
 app.UseStaticFiles();
 
 app.UseRouting();
