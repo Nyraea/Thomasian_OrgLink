@@ -11,9 +11,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 
 
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
-        <!-- other head elements -->
-  
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <!-- other head elements -->
+
 </head>
 <body>
     <header>
@@ -44,7 +44,7 @@
                             <a class="link-white mx-3 px-3 py-1 border-1 rounded" asp-area="" asp-controller="Department" asp-action="ViewOrg"><b>ORGS</b></a>
                         </li>
                         <li class="nav-item">
-                         
+
                             <a class="link-black  mx-3 px-3 py-1 border-1 rounded" asp-area="" asp-controller="Org" asp-action="Register"> <span><b>ADD-ORG</b> </span></a>
                         </li>
                     </ul>
@@ -52,18 +52,18 @@
 
                 @*NAV SEARCH BAR
                 <div class="d-flex mx-3 w-50 collapse d-none d-sm-inline-flex justify-content-center ">
-                    <form class="w-75" role="search">
-                        <input class="form-control w-100 d-none d-lg-block border rounded-5" type="search" placeholder="Search" aria-label="Search">
-                    </form>
+                <form class="w-75" role="search">
+                <input class="form-control w-100 d-none d-lg-block border rounded-5" type="search" placeholder="Search" aria-label="Search">
+                </form>
                 </div>
                 *@
 
                 <div class="d-flex ms-3 w-10 collapse d-none d-sm-inline-flex justify-content-center ">
                 </div>
-                
-                
+
+
                 @*NAV ICONS*@
-                <div class="d-flex mx-3 w-25 collapse d-none d-sm-inline-flex justify-content-center" >
+                <div class="d-flex mx-3 w-25 collapse d-none d-sm-inline-flex justify-content-center">
                     <div class="dropdown">
                         <a class="navbar-collapse collapse" data-bs-toggle="dropdown"> <img class="w-30 m-auto" src="~/assets/iconprof.png" /> </a>
                         @if (User.Identity.IsAuthenticated)
@@ -99,8 +99,8 @@
                         <span class="mx-4 px-3 py-1 border-1 rounded"><b>VIEW ORGS</b></span>
                     </li>
                     </a>
-                     <a class="link-black  mx-3 px-3 py-1 border-1 rounded" asp-area="" asp-controller="Org" asp-action="Register">
-                        <li>
+                    <a class="link-black  mx-3 px-3 py-1 border-1 rounded" asp-area="" asp-controller="Org" asp-action="Register">
+                    <li>
                         <span class=" mx-4 px-3 py-1 border-1 rounded"><b>ADD ORG</b></span>
                     </li>
                     </a>
@@ -119,14 +119,14 @@
 
     <footer class=" mt-5 border-top footer text-muted">
 
-        <nav class = "container-fluid pt-3 bg-black">
-            <div class = "row g-3 my-3 justify-content-center">
+        <nav class="container-fluid pt-3 bg-black">
+            <div class="row g-3 my-3 justify-content-center">
 
                 <!-- logo -->
                 <div class="col-lg-4 col-sm-12">
                     <div class="d-flex justify-content-center my-1">
                         <a asp-action="Index" class="">
-                            <img src="../assets/Logo.png" class = "text-center" style="max-width: 200px; width:100%;">
+                            <img src="../assets/Logo.png" class="text-center" style="max-width: 200px; width:100%;">
                         </a>
                     </div>
 
@@ -139,20 +139,16 @@
                 <!-- links -->
                 <div class="col-2 collapse d-none d-sm-block">
                     <div class="items">
-                        <ul class = "list-group">
+                        <ul class="list-group">
                             <li class="list-group-item bg-transparent border-0"><a class="link-white-2 text-decoration-none" asp-area=" " asp-controller="Home" asp-action="Index">HOME</a></li>
                             <li class="list-group-item bg-transparent border-0"><a class="link-white-2 text-decoration-none" asp-area=" " asp-controller="Home" asp-action="ViewOrg">ORGS</a></li>
-                              <a class="list-group-item bg-transparent border-0" asp-area="" asp-controller="Org" asp-action="Register">
-                        <li>
-                        <span class=" mx-4 px-3 py-1 border-1 rounded"><b>ADD ORG</b></span>
-                    </li>
-                    </a>
+                            <li class="list-group-item bg-transparent border-0"><a class="link-white-2 text-decoration-none" asp-area=" " asp-controller="Org" asp-action="Register">ADD-ORG</a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-2 collapse d-none d-sm-block">
                     <div class="items">
-                        <ul class = "list-group">
+                        <ul class="list-group">
                             <li class="list-group-item bg-transparent border-0"><a class="link-white-2 text-decoration-none" asp-area=" " asp-controller="Home" asp-action="Index">ABOUT</a></li>
                             <li class="list-group-item bg-transparent border-0"><a class="link-white-2 text-decoration-none" asp-area=" " asp-controller="Home" asp-action="Index">CONTACT US</a></li>
                             <li class="list-group-item bg-transparent border-0"><a class="link-white-2 text-decoration-none" asp-area=" " asp-controller="Home" asp-action="Index">RESOURCES</a></li>
@@ -161,16 +157,16 @@
                 </div>
                 <div class="col-2 collapse d-none d-sm-block">
                     <div class="items">
-                        <ul class = "list-group">
+                        <ul class="list-group">
                             <li class="list-group-item bg-transparent border-0"><a class="link-white-2 text-decoration-none" asp-area=" " asp-controller="Home" asp-action="Index">SUPPORT</a></li>
-                            <li class="list-group-item bg-transparent border-0"><a class="link-white-2 text-decoration-none"asp-area=" " asp-controller="Home" asp-action="Index">SUBMIT A TICKET</a></li>
+                            <li class="list-group-item bg-transparent border-0"><a class="link-white-2 text-decoration-none" asp-area=" " asp-controller="Home" asp-action="Index">SUBMIT A TICKET</a></li>
                             <li class="list-group-item bg-transparent border-0"><a class="link-white-2 text-decoration-none" asp-area=" " asp-controller="Home" asp-action="Index">AFFILIATES</a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-2 collapse d-none d-sm-block">
                     <div class="items">
-                        <ul class = "list-group">
+                        <ul class="list-group">
                             <li class="list-group-item bg-transparent  border-0"><a class="link-white-2 text-decoration-none" asp-area=" " asp-controller="Home" asp-action="Index">FAQS</a></li>
                             <li class="list-group-item bg-transparent border-0"><a class="link-white-2 text-decoration-none" asp-area=" " asp-controller="Home" asp-action="Index">PRIVACY POLICY</a></li>
                             <li class="list-group-item bg-transparent border-0"><a class="link-white-2 text-decoration-none" asp-area=" " asp-controller="Home" asp-action="Index">T&C</a></li>
@@ -179,19 +175,19 @@
                 </div>
             </div>
 
-        <!-- horizontal rule -->
+            <!-- horizontal rule -->
             <div class=" collapse d-none d-sm-block row row-cols-1 row-cols-md-1 g-3 mx-4 my-1 flex_card">
                 <div class="col">
-                    <hr class = "border border-4 rounded-pill border-yellow">
+                    <hr class="border border-4 rounded-pill border-yellow">
                 </div>
             </div>
-            
-        <!-- socials -->
-            <div class = "row g-3 mx-5">
+
+            <!-- socials -->
+            <div class="row g-3 mx-5">
                 <div class="col d-flex justify-content-evenly my-5">
-                    <a href=""><img style = "max-width: 30px" src ="../assets/twitter.png"></a>
-                    <a href=""><img style = "max-width: 30px" src ="../assets/fb.png"></a>
-                    <a href=""><img style = "max-width: 30px" src ="../assets/ig.png"></a>
+                    <a href=""><img style="max-width: 30px" src="../assets/twitter.png"></a>
+                    <a href=""><img style="max-width: 30px" src="../assets/fb.png"></a>
+                    <a href=""><img style="max-width: 30px" src="../assets/ig.png"></a>
                 </div>
             </div>
         </nav>
